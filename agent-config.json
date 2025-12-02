@@ -1,0 +1,60 @@
+{
+  "version": "1.0.2",
+  "min_version": "1.0.0",
+  "force_update": false,
+  
+  "server": {
+    "primary_url": "https://sphere-api.ru.tuna.am",
+    "ws_url": "wss://sphere-api.ru.tuna.am/api/v1/agent/ws",
+    "fallback_urls": [
+      "https://adb.leetpc.com",
+      "http://10.0.2.2:8000",
+      "http://192.168.1.100:8000"
+    ]
+  },
+  
+  "connection": {
+    "heartbeat_interval_ms": 30000,
+    "reconnect_delay_ms": 5000,
+    "max_reconnect_delay_ms": 60000,
+    "connection_timeout_ms": 30000,
+    "ping_interval_ms": 20000
+  },
+  
+  "stream": {
+    "quality": 80,
+    "fps": 15,
+    "max_dimension": 1280,
+    "format": "jpeg"
+  },
+  
+  "updates": {
+    "check_interval_hours": 1,
+    "auto_update": true,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/latest/download/SphereAgent.apk",
+    "changelog_url": "https://raw.githubusercontent.com/RootOne1337/sphere-config/main/changelog.json"
+  },
+  
+  "features": {
+    "screen_capture": true,
+    "touch_control": true,
+    "shell_commands": true,
+    "file_transfer": true,
+    "app_management": true,
+    "accessibility_service": true
+  },
+  
+  "security": {
+    "require_auth": false,
+    "encryption": "none",
+    "allowed_commands": ["tap", "swipe", "key", "shell", "home", "back", "recent"]
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "remote_logging": false,
+    "crash_reporting": true
+  },
+  
+  "last_updated": "2025-12-02T22:00:00Z"
+}
