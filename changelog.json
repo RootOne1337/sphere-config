@@ -1,0 +1,57 @@
+{
+  "versions": [
+    {
+      "version": "1.0.2",
+      "version_code": 3,
+      "release_date": "2025-12-02",
+      "min_sdk": 24,
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.2-debug.apk",
+      "size_bytes": 23316329,
+      "sha256": "",
+      "changes": [
+        "🔧 Критические исправления крашей",
+        "✅ Добавлена @HiltAndroidApp аннотация",
+        "✅ Исправлена инициализация Hilt DI",
+        "✅ Lazy инициализация компонентов",
+        "✅ Глобальный обработчик исключений"
+      ],
+      "required": true
+    },
+    {
+      "version": "1.0.1",
+      "version_code": 2,
+      "release_date": "2025-12-02",
+      "min_sdk": 24,
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.1-debug.apk",
+      "size_bytes": 23316329,
+      "sha256": "",
+      "changes": [
+        "📱 Поддержка любой ориентации экрана",
+        "🔧 Исправлена совместимость с Android 9",
+        "✅ Автозапуск при загрузке устройства"
+      ],
+      "required": false
+    },
+    {
+      "version": "1.0.0",
+      "version_code": 1,
+      "release_date": "2025-12-02",
+      "min_sdk": 24,
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.0-debug.apk",
+      "size_bytes": 23300025,
+      "sha256": "",
+      "changes": [
+        "🚀 Первый релиз",
+        "🎥 Screen streaming",
+        "🎮 Remote control",
+        "🔄 Auto-reconnect"
+      ],
+      "required": false
+    }
+  ],
+  "latest": {
+    "version": "1.0.2",
+    "version_code": 3,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.2-debug.apk"
+  }
+}
