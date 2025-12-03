@@ -1,57 +1,48 @@
 {
   "versions": [
     {
-      "version": "1.0.2",
-      "version_code": 3,
-      "release_date": "2025-12-02",
-      "min_sdk": 24,
-      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.2-debug.apk",
-      "size_bytes": 23316329,
-      "sha256": "",
+      "version": "1.0.3",
+      "date": "2025-12-03",
       "changes": [
-        "🔧 Критические исправления крашей",
-        "✅ Добавлена @HiltAndroidApp аннотация",
-        "✅ Исправлена инициализация Hilt DI",
-        "✅ Lazy инициализация компонентов",
-        "✅ Глобальный обработчик исключений"
-      ],
-      "required": true
+        "✨ Enterprise OTA Update System",
+        "🔄 Auto-reconnect with exponential backoff",
+        "⚙️ Remote Config from GitHub",
+        "🛡️ Global crash protection",
+        "📱 WorkManager background updates",
+        "🔧 Fixed backup_rules.xml lint errors",
+        "🌐 Tuna tunnel integration (sphere-api.ru.tuna.am)"
+      ]
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-12-02",
+      "changes": [
+        "🛡️ Zero-crash protection",
+        "🔧 Fixed @HiltAndroidApp annotation",
+        "📱 SharedPreferences fallback",
+        "⚡ Lazy component initialization",
+        "🔒 Global UncaughtExceptionHandler"
+      ]
     },
     {
       "version": "1.0.1",
-      "version_code": 2,
-      "release_date": "2025-12-02",
-      "min_sdk": 24,
-      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.1-debug.apk",
-      "size_bytes": 23316329,
-      "sha256": "",
+      "date": "2025-12-02",
       "changes": [
-        "📱 Поддержка любой ориентации экрана",
-        "🔧 Исправлена совместимость с Android 9",
-        "✅ Автозапуск при загрузке устройства"
-      ],
-      "required": false
+        "🔧 Android 9 compatibility fixes",
+        "📱 enableEdgeToEdge API 29+ guard",
+        "🎨 Theme window operations protection"
+      ]
     },
     {
       "version": "1.0.0",
-      "version_code": 1,
-      "release_date": "2025-12-02",
-      "min_sdk": 24,
-      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.0-debug.apk",
-      "size_bytes": 23300025,
-      "sha256": "",
+      "date": "2025-12-02",
       "changes": [
-        "🚀 Первый релиз",
-        "🎥 Screen streaming",
-        "🎮 Remote control",
-        "🔄 Auto-reconnect"
-      ],
-      "required": false
+        "🚀 Initial release",
+        "📱 Material 3 UI with Compose",
+        "🔌 WebSocket connection to server",
+        "📺 Screen streaming capability",
+        "🖱️ Touch control support"
+      ]
     }
-  ],
-  "latest": {
-    "version": "1.0.2",
-    "version_code": 3,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.0.2-debug.apk"
-  }
+  ]
 }
