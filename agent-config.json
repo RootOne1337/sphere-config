@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "min_version": "1.0.0",
   "force_update": false,
   
@@ -11,6 +11,15 @@
       "http://10.0.2.2:8000",
       "http://192.168.1.100:8000"
     ]
+  },
+  
+  "discovery": {
+    "enabled": true,
+    "remote_config_first": true,
+    "mdns_enabled": true,
+    "network_scan_enabled": true,
+    "scan_port": 8000,
+    "scan_timeout_ms": 3000
   },
   
   "connection": {
@@ -57,5 +66,5 @@
     "crash_reporting": true
   },
   
-  "last_updated": "2025-12-03T00:20:00Z"
+  "last_updated": "2025-12-03T14:55:00Z"
 }

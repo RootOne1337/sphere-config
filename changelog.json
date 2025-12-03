@@ -1,16 +1,27 @@
 {
   "versions": [
     {
+      "version": "1.0.4",
+      "date": "2025-12-03",
+      "changes": [
+        "🔍 Zero-Config Auto-Discovery System",
+        "📡 Automatic server detection (Remote Config → mDNS → Network Scan)",
+        "🌐 Network scanner for local servers",
+        "🔄 Smart fallback chain",
+        "⚡ No manual configuration needed!",
+        "🌐 Web interface: sphere-web.ru.tuna.am"
+      ]
+    },
+    {
       "version": "1.0.3",
       "date": "2025-12-03",
       "changes": [
         "✨ Enterprise OTA Update System",
         "🔄 Auto-reconnect with exponential backoff",
         "⚙️ Remote Config from GitHub",
-        "🛡️ Global crash protection",
+        "��️ Global crash protection",
         "📱 WorkManager background updates",
-        "🔧 Fixed backup_rules.xml lint errors",
-        "🌐 Tuna tunnel integration (sphere-api.ru.tuna.am)"
+        "🌐 Tuna tunnel integration"
       ]
     },
     {
@@ -20,8 +31,7 @@
         "🛡️ Zero-crash protection",
         "🔧 Fixed @HiltAndroidApp annotation",
         "📱 SharedPreferences fallback",
-        "⚡ Lazy component initialization",
-        "🔒 Global UncaughtExceptionHandler"
+        "⚡ Lazy component initialization"
       ]
     },
     {
@@ -29,8 +39,7 @@
       "date": "2025-12-02",
       "changes": [
         "🔧 Android 9 compatibility fixes",
-        "📱 enableEdgeToEdge API 29+ guard",
-        "🎨 Theme window operations protection"
+        "📱 enableEdgeToEdge API 29+ guard"
       ]
     },
     {
@@ -38,10 +47,7 @@
       "date": "2025-12-02",
       "changes": [
         "🚀 Initial release",
-        "📱 Material 3 UI with Compose",
-        "🔌 WebSocket connection to server",
-        "📺 Screen streaming capability",
-        "🖱️ Touch control support"
+        "📱 Material 3 UI with Compose"
       ]
     }
   ]
