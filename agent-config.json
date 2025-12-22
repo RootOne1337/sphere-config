@@ -2,11 +2,22 @@
   "version": "1.0.4",
   "min_version": "1.0.0",
   "force_update": false,
+
+  "server_url": "https://sphereadb.ru.tuna.am",
+  "ws_url": "wss://sphereadb.ru.tuna.am/api/v1/agent",
+  "fallback_urls": [
+    "https://sphereadb.ru.tuna.am",
+    "https://adb.leetpc.com",
+    "http://10.0.2.2:8000",
+    "http://192.168.1.100:8000"
+  ],
   
   "server": {
-    "primary_url": "https://sphere-api.ru.tuna.am",
-    "ws_url": "wss://sphere-api.ru.tuna.am/api/v1/agent/ws",
+    "primary_url": "https://sphereadb.ru.tuna.am",
+    "websocket_path": "/api/v1/agent",
+    "ws_url": "wss://sphereadb.ru.tuna.am/api/v1/agent/ws",
     "fallback_urls": [
+      "https://sphereadb.ru.tuna.am",
       "https://adb.leetpc.com",
       "http://10.0.2.2:8000",
       "http://192.168.1.100:8000"
@@ -66,5 +77,5 @@
     "crash_reporting": true
   },
   
-  "last_updated": "2025-12-03T14:55:00Z"
+  "last_updated": "2025-12-13T00:00:00Z"
 }
