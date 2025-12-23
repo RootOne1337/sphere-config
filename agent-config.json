@@ -15,7 +15,7 @@
   "server": {
     "primary_url": "https://sphereadb.ru.tuna.am",
     "websocket_path": "/api/v1/agent",
-    "ws_url": "wss://sphereadb.ru.tuna.am/api/v1/agent/ws",
+    "ws_url": "wss://sphereadb.ru.tuna.am/api/v1/agent",
     "fallback_urls": [
       "https://sphereadb.ru.tuna.am",
       "https://adb.leetpc.com",
