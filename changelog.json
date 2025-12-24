@@ -5,7 +5,7 @@
       "version_code": 11,
       "release_date": "2025-12-24",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.6.0.apk",
       "size_bytes": 11012339,
       "sha256": "0f668c544ce4c083b154fb4e22861f454424cdf9190f2c781572d99b3bcdd982",
       "changes": [
