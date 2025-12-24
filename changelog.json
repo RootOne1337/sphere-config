@@ -1,54 +1,25 @@
 {
   "versions": [
     {
-      "version": "1.0.4",
-      "date": "2025-12-03",
+      "version": "1.6.0",
+      "version_code": 11,
+      "release_date": "2025-12-24",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11012339,
+      "sha256": "0f668c544ce4c083b154fb4e22861f454424cdf9190f2c781572d99b3bcdd982",
       "changes": [
-        "🔍 Zero-Config Auto-Discovery System",
-        "📡 Automatic server detection (Remote Config → mDNS → Network Scan)",
-        "🌐 Network scanner for local servers",
-        "🔄 Smart fallback chain",
-        "⚡ No manual configuration needed!",
-        "🌐 Web interface: sphere-web.ru.tuna.am"
-      ]
-    },
-    {
-      "version": "1.0.3",
-      "date": "2025-12-03",
-      "changes": [
-        "✨ Enterprise OTA Update System",
-        "🔄 Auto-reconnect with exponential backoff",
-        "⚙️ Remote Config from GitHub",
-        "��️ Global crash protection",
-        "📱 WorkManager background updates",
-        "🌐 Tuna tunnel integration"
-      ]
-    },
-    {
-      "version": "1.0.2",
-      "date": "2025-12-02",
-      "changes": [
-        "🛡️ Zero-crash protection",
-        "🔧 Fixed @HiltAndroidApp annotation",
-        "📱 SharedPreferences fallback",
-        "⚡ Lazy component initialization"
-      ]
-    },
-    {
-      "version": "1.0.1",
-      "date": "2025-12-02",
-      "changes": [
-        "🔧 Android 9 compatibility fixes",
-        "📱 enableEdgeToEdge API 29+ guard"
-      ]
-    },
-    {
-      "version": "1.0.0",
-      "date": "2025-12-02",
-      "changes": [
-        "🚀 Initial release",
-        "📱 Material 3 UI with Compose"
-      ]
+        "Live stream start/stop из веба (не скрины)",
+        "Полное управление: tap, swipe/drag, long-press",
+        "Совместимость протокола команд: params",
+        "Non-root управление через Accessibility (HOME/BACK/RECENTS)"
+      ],
+      "required": false
     }
-  ]
+  ],
+  "latest": {
+    "version": "1.6.0",
+    "version_code": 11,
+    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
+  }
 }
