@@ -1,9 +1,26 @@
 {
   "versions": [
     {
+      "version": "1.7.0",
+      "version_code": 12,
+      "release_date": "2024-12-24",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.7.0.apk",
+      "size_bytes": 11534240,
+      "sha256": "ab85946933a38083ad49e2544ca1ae626c321872299975092a18344251e46c80",
+      "changes": [
+        "Enterprise Diagnostics: has_accessibility, has_root в hello/heartbeat",
+        "Command ACK: результаты команд отправляются viewer'у",
+        "Улучшенный UI viewer: Fit/Fill/1:1 режимы, FPS метрики",
+        "Баннер если Accessibility не включён",
+        "Сброс состояния при reconnect"
+      ],
+      "required": false
+    },
+    {
       "version": "1.6.0",
       "version_code": 11,
-      "release_date": "2025-12-24",
+      "release_date": "2024-12-23",
       "min_sdk": 24,
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.6.0.apk",
       "size_bytes": 11012339,
@@ -18,8 +35,8 @@
     }
   ],
   "latest": {
-    "version": "1.6.0",
-    "version_code": 11,
+    "version": "1.7.0",
+    "version_code": 12,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
