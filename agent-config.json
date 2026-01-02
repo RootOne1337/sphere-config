@@ -1,8 +1,7 @@
 {
-  "version": "1.5.5",
-  "min_version": "1.0.0",
+  "version": "1.7.0",
+  "min_version": "1.5.0",
   "force_update": false,
-
   "server_url": "https://adb.leetpc.com",
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [
@@ -10,7 +9,6 @@
     "https://sphereadb-api-v2.ru.tuna.am",
     "https://sphereadb.ru.tuna.am"
   ],
-  
   "server": {
     "primary_url": "https://adb.leetpc.com",
     "websocket_path": "/api/v1/agent/ws",
@@ -21,7 +19,6 @@
       "https://sphereadb.ru.tuna.am"
     ]
   },
-  
   "discovery": {
     "enabled": true,
     "remote_config_first": true,
@@ -30,7 +27,6 @@
     "scan_port": 8000,
     "scan_timeout_ms": 3000
   },
-  
   "connection": {
     "heartbeat_interval_ms": 30000,
     "reconnect_delay_ms": 5000,
@@ -38,22 +34,19 @@
     "connection_timeout_ms": 30000,
     "ping_interval_ms": 20000
   },
-  
   "stream": {
     "quality": 80,
     "fps": 15,
     "max_dimension": 1280,
     "format": "jpeg"
   },
-  
   "updates": {
     "check_interval_hours": 1,
     "auto_update": true,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.5.5.apk",
-    "releases_api": "https://api.github.com/repos/SphereADB/SphereAgent-APK/releases/latest",
-    "changelog_url": "https://raw.githubusercontent.com/SphereADB/sphere-config/main/changelog.json"
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/SphereAgent-v1.7.0.apk",
+    "releases_api": "https://api.github.com/repos/RootOne1337/SphereAgent-APK/releases/latest",
+    "changelog_url": "https://raw.githubusercontent.com/RootOne1337/sphere-config/main/changelog.json"
   },
-  
   "features": {
     "screen_capture": true,
     "touch_control": true,
@@ -62,18 +55,26 @@
     "app_management": true,
     "accessibility_service": true
   },
-  
   "security": {
     "require_auth": false,
     "encryption": "none",
-    "allowed_commands": ["tap", "swipe", "key", "shell", "home", "back", "recent"]
+    "allowed_commands": [
+      "tap",
+      "swipe",
+      "key",
+      "shell",
+      "home",
+      "back",
+      "recent",
+      "long_press",
+      "text"
+    ]
   },
-  
   "logging": {
     "level": "INFO",
     "remote_logging": false,
     "crash_reporting": true
   },
-  
-  "last_updated": "2025-12-24T00:00:00Z"
+  "last_updated": "2024-12-24T12:00:00Z",
+  "updated_at": "2026-01-02T16:30:00Z"
 }
