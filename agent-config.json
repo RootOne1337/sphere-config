@@ -1,7 +1,7 @@
 {
-  "version": "1.8.0",
+  "version": "1.8.1",
   "min_version": "1.5.0",
-  "force_update": false,
+  "force_update": true,
   "server_url": "https://adb.leetpc.com",
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [
@@ -43,7 +43,7 @@
   "updates": {
     "check_interval_hours": 1,
     "auto_update": true,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v1.8.0/SphereAgent-v1.8.0.apk",
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v1.8.1/SphereAgent-v1.8.1.apk",
     "releases_api": "https://api.github.com/repos/RootOne1337/SphereAgent-APK/releases/latest",
     "changelog_url": "https://raw.githubusercontent.com/RootOne1337/sphere-config/main/changelog.json"
   },
@@ -76,5 +76,5 @@
     "crash_reporting": true
   },
   "last_updated": "2024-12-24T12:00:00Z",
-  "updated_at": "2026-01-02T17:10:00Z"
+  "updated_at": "2026-01-02T18:15:00Z"
 }
