@@ -1,11 +1,27 @@
 {
   "versions": [
     {
-      "version": "1.9.2",
-      "version_code": 18,
-      "release_date": "2025-01-03",
+      "version": "1.9.3",
+      "version_code": 19,
+      "release_date": "2026-01-03",
       "min_sdk": 24,
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045103,
+      "sha256": "",
+      "changes": [
+        "ROOT retry механизм: 3 попытки проверки su",
+        "Перепроверка ROOT при каждой команде tap/swipe",
+        "Исправлено определение ROOT на LDPlayer/Bluestacks",
+        "Альтернативный способ su через интерактивный shell"
+      ],
+      "required": true
+    },
+    {
+      "version": "1.9.2",
+      "version_code": 18,
+      "release_date": "2026-01-03",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.2.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
@@ -14,7 +30,7 @@
         "Исправлено определение ROOT при подключении",
         "Команда update_agent от сервера"
       ],
-      "required": true
+      "required": false
     },
     {
       "version": "1.9.1",
@@ -61,8 +77,8 @@
     }
   ],
   "latest": {
-    "version": "1.9.2",
-    "version_code": 18,
+    "version": "1.9.3",
+    "version_code": 19,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
