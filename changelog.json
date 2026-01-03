@@ -1,100 +1,55 @@
 {
   "versions": [
     {
+      "version": "1.9.7",
+      "version_code": 23,
+      "release_date": "2026-01-03",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045103,
+      "sha256": "",
+      "changes": [
+        "КРИТИЧЕСКИЙ ФИКС! startCommandLoop() вызывается ПЕРЕД connect()",
+        "SharedFlow получил replay=1 - команды больше не теряются",
+        "SphereLog.init() вызывается при старте приложения",
+        "Добавлены диагностические логи для command loop",
+        "Исправлен race condition с подпиской на команды"
+      ],
+      "required": true
+    },
+    {
+      "version": "1.9.6",
+      "version_code": 22,
+      "release_date": "2026-01-03",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.6.apk",
+      "size_bytes": 11045107,
+      "sha256": "",
+      "changes": [
+        "Диагностика: добавлены логи command loop и handleCommand",
+        "SphereLog.init() при старте приложения"
+      ],
+      "required": false
+    },
+    {
       "version": "1.9.5",
       "version_code": 21,
       "release_date": "2026-01-03",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.5.apk",
       "size_bytes": 11045107,
       "sha256": "",
       "changes": [
         "ГАРАНТИРОВАННЫЙ ROOT! Агрессивный фоновый checker каждые 5 секунд",
-        "5 методов проверки su (su -c id, interactive su, whoami, binary check, su 0)",
-        "Бесконечные retry пока ROOT не подтверждён",
-        "Callback для немедленного обновления статуса при определении ROOT",
-        "Автоматическая отправка status_update на сервер",
-        "ROOT подтверждается при успешном выполнении любой команды"
-      ],
-      "required": true
-    },
-    {
-      "version": "1.9.3",
-      "version_code": 19,
-      "release_date": "2026-01-03",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.3.apk",
-      "size_bytes": 11045103,
-      "sha256": "",
-      "changes": [
-        "ROOT retry механизм: 3 попытки проверки su",
-        "Перепроверка ROOT при каждой команде tap/swipe",
-        "Исправлено определение ROOT на LDPlayer/Bluestacks",
-        "Альтернативный способ su через интерактивный shell"
-      ],
-      "required": false
-    },
-      "version_code": 18,
-      "release_date": "2026-01-03",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.2.apk",
-      "size_bytes": 11045103,
-      "sha256": "",
-      "changes": [
-        "OTA обновления: автоматическое скачивание и установка",
-        "ROOT silent install: тихая установка через su",
-        "Исправлено определение ROOT при подключении",
-        "Команда update_agent от сервера"
-      ],
-      "required": false
-    },
-    {
-      "version": "1.9.1",
-      "version_code": 17,
-      "release_date": "2025-01-02",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.1.apk",
-      "size_bytes": 23496588,
-      "sha256": "",
-      "changes": [
-        "Исправлена инициализация ROOT прав при подключении",
-        "ROOT проверяется ДО подключения к серверу"
-      ],
-      "required": true
-    },
-    {
-      "version": "1.9.0",
-      "version_code": 16,
-      "release_date": "2025-01-01",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.0.apk",
-      "size_bytes": 11000000,
-      "sha256": "",
-      "changes": [
-        "ROOT-only режим для эмуляторов",
-        "Полное управление через ROOT права"
-      ],
-      "required": false
-    },
-    {
-      "version": "1.7.0",
-      "version_code": 12,
-      "release_date": "2024-12-24",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.7.0.apk",
-      "size_bytes": 11534240,
-      "sha256": "ab85946933a38083ad49e2544ca1ae626c321872299975092a18344251e46c80",
-      "changes": [
-        "Enterprise Diagnostics: has_accessibility, has_root в hello/heartbeat",
-        "Command ACK: результаты команд отправляются viewer'у",
-        "Улучшенный UI viewer: Fit/Fill/1:1 режимы, FPS метрики"
+        "5 методов проверки su",
+        "Бесконечные retry пока ROOT не подтверждён"
       ],
       "required": false
     }
   ],
   "latest": {
-    "version": "1.9.5",
-    "version_code": 21,
+    "version": "1.9.7",
+    "version_code": 23,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
