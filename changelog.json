@@ -1,6 +1,50 @@
 {
   "versions": [
     {
+      "version": "1.9.2",
+      "version_code": 18,
+      "release_date": "2025-01-03",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045103,
+      "sha256": "",
+      "changes": [
+        "OTA обновления: автоматическое скачивание и установка",
+        "ROOT silent install: тихая установка через su",
+        "Исправлено определение ROOT при подключении",
+        "Команда update_agent от сервера"
+      ],
+      "required": true
+    },
+    {
+      "version": "1.9.1",
+      "version_code": 17,
+      "release_date": "2025-01-02",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.1.apk",
+      "size_bytes": 23496588,
+      "sha256": "",
+      "changes": [
+        "Исправлена инициализация ROOT прав при подключении",
+        "ROOT проверяется ДО подключения к серверу"
+      ],
+      "required": true
+    },
+    {
+      "version": "1.9.0",
+      "version_code": 16,
+      "release_date": "2025-01-01",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.0.apk",
+      "size_bytes": 11000000,
+      "sha256": "",
+      "changes": [
+        "ROOT-only режим для эмуляторов",
+        "Полное управление через ROOT права"
+      ],
+      "required": false
+    },
+    {
       "version": "1.7.0",
       "version_code": 12,
       "release_date": "2024-12-24",
@@ -11,32 +55,14 @@
       "changes": [
         "Enterprise Diagnostics: has_accessibility, has_root в hello/heartbeat",
         "Command ACK: результаты команд отправляются viewer'у",
-        "Улучшенный UI viewer: Fit/Fill/1:1 режимы, FPS метрики",
-        "Баннер если Accessibility не включён",
-        "Сброс состояния при reconnect"
-      ],
-      "required": false
-    },
-    {
-      "version": "1.6.0",
-      "version_code": 11,
-      "release_date": "2024-12-23",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.6.0.apk",
-      "size_bytes": 11012339,
-      "sha256": "0f668c544ce4c083b154fb4e22861f454424cdf9190f2c781572d99b3bcdd982",
-      "changes": [
-        "Live stream start/stop из веба (не скрины)",
-        "Полное управление: tap, swipe/drag, long-press",
-        "Совместимость протокола команд: params",
-        "Non-root управление через Accessibility (HOME/BACK/RECENTS)"
+        "Улучшенный UI viewer: Fit/Fill/1:1 режимы, FPS метрики"
       ],
       "required": false
     }
   ],
   "latest": {
-    "version": "1.7.0",
-    "version_code": 12,
+    "version": "1.9.2",
+    "version_code": 18,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
