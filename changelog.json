@@ -1,11 +1,29 @@
 {
   "versions": [
     {
+      "version": "1.9.5",
+      "version_code": 21,
+      "release_date": "2026-01-03",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045107,
+      "sha256": "",
+      "changes": [
+        "ГАРАНТИРОВАННЫЙ ROOT! Агрессивный фоновый checker каждые 5 секунд",
+        "5 методов проверки su (su -c id, interactive su, whoami, binary check, su 0)",
+        "Бесконечные retry пока ROOT не подтверждён",
+        "Callback для немедленного обновления статуса при определении ROOT",
+        "Автоматическая отправка status_update на сервер",
+        "ROOT подтверждается при успешном выполнении любой команды"
+      ],
+      "required": true
+    },
+    {
       "version": "1.9.3",
       "version_code": 19,
       "release_date": "2026-01-03",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.3.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
@@ -14,10 +32,8 @@
         "Исправлено определение ROOT на LDPlayer/Bluestacks",
         "Альтернативный способ su через интерактивный shell"
       ],
-      "required": true
+      "required": false
     },
-    {
-      "version": "1.9.2",
       "version_code": 18,
       "release_date": "2026-01-03",
       "min_sdk": 24,
@@ -77,8 +93,8 @@
     }
   ],
   "latest": {
-    "version": "1.9.3",
-    "version_code": 19,
+    "version": "1.9.5",
+    "version_code": 21,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
