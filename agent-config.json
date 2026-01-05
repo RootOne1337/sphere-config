@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "min_version": "1.9.8",
+  "version": "2.0.1",
+  "min_version": "2.0.0",
   "force_update": true,
   "server_url": "https://adb.leetpc.com",
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
@@ -67,6 +67,6 @@
     "remote_logging": true,
     "crash_reporting": true
   },
-  "last_updated": "2026-01-05T17:00:00Z",
-  "updated_at": "2026-01-05T17:00:00Z"
+  "last_updated": "2026-01-05T18:10:00Z",
+  "updated_at": "2026-01-05T18:10:00Z"
 }

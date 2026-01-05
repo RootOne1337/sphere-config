@@ -1,11 +1,27 @@
 {
   "versions": [
     {
+      "version": "2.0.1",
+      "version_code": 27,
+      "release_date": "2026-01-05",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045107,
+      "sha256": "",
+      "changes": [
+        "КРИТИЧЕСКИЙ ФИКС reconnect loop!",
+        "NetworkReceiver больше не вызывает reconnect если уже подключены",
+        "Debounce 30 секунд между переподключениями",
+        "Стабильное соединение без дисконнектов"
+      ],
+      "required": true
+    },
+    {
       "version": "2.0.0",
       "version_code": 26,
       "release_date": "2026-01-05",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
@@ -47,8 +63,8 @@
     }
   ],
   "latest": {
-    "version": "2.0.0",
-    "version_code": 26,
+    "version": "2.0.1",
+    "version_code": 27,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
