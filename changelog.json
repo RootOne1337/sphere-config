@@ -1,55 +1,38 @@
 {
   "versions": [
     {
-      "version": "1.9.7",
-      "version_code": 23,
-      "release_date": "2026-01-03",
+      "version": "1.9.8",
+      "version_code": 24,
+      "release_date": "2026-01-05",
       "min_sdk": 24,
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
-        "КРИТИЧЕСКИЙ ФИКС! startCommandLoop() вызывается ПЕРЕД connect()",
-        "SharedFlow получил replay=1 - команды больше не теряются",
-        "SphereLog.init() вызывается при старте приложения",
-        "Добавлены диагностические логи для command loop",
-        "Исправлен race condition с подпиской на команды"
+        "КРИТИЧЕСКИЙ ФИКС! AgentService теперь запускается при старте приложения",
+        "Команды (tap, swipe, key, home, back) теперь работают!",
+        "AgentService.start() вызывается в SphereAgentApp.onCreate()"
       ],
       "required": true
     },
     {
-      "version": "1.9.6",
-      "version_code": 22,
+      "version": "1.9.7",
+      "version_code": 23,
       "release_date": "2026-01-03",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.6.apk",
-      "size_bytes": 11045107,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.7.apk",
+      "size_bytes": 11045103,
       "sha256": "",
       "changes": [
-        "Диагностика: добавлены логи command loop и handleCommand",
-        "SphereLog.init() при старте приложения"
-      ],
-      "required": false
-    },
-    {
-      "version": "1.9.5",
-      "version_code": 21,
-      "release_date": "2026-01-03",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.5.apk",
-      "size_bytes": 11045107,
-      "sha256": "",
-      "changes": [
-        "ГАРАНТИРОВАННЫЙ ROOT! Агрессивный фоновый checker каждые 5 секунд",
-        "5 методов проверки su",
-        "Бесконечные retry пока ROOT не подтверждён"
+        "startCommandLoop() вызывается ПЕРЕД connect()",
+        "SharedFlow replay=1 - команды не теряются"
       ],
       "required": false
     }
   ],
   "latest": {
-    "version": "1.9.7",
-    "version_code": 23,
+    "version": "1.9.8",
+    "version_code": 24,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
