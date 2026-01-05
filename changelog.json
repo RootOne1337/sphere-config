@@ -1,38 +1,54 @@
 {
   "versions": [
     {
-      "version": "1.9.8",
-      "version_code": 24,
+      "version": "2.0.0",
+      "version_code": 26,
       "release_date": "2026-01-05",
       "min_sdk": 24,
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
-        "КРИТИЧЕСКИЙ ФИКС! AgentService теперь запускается при старте приложения",
-        "Команды (tap, swipe, key, home, back) теперь работают!",
-        "AgentService.start() вызывается в SphereAgentApp.onCreate()"
+        "КРИТИЧЕСКИЙ ФИКС стабильности стрима!",
+        "Throttling фреймов - предотвращает забивание WebSocket",
+        "Приоритет команд над стримом - команды выполняются мгновенно",
+        "Исправлена обработка heartbeat_ack/registered",
+        "Понижен FPS до 10 для лучшей стабильности"
       ],
       "required": true
     },
     {
-      "version": "1.9.7",
-      "version_code": 23,
-      "release_date": "2026-01-03",
+      "version": "1.9.9",
+      "version_code": 25,
+      "release_date": "2026-01-05",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/1.9.7.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-1.9.9.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
-        "startCommandLoop() вызывается ПЕРЕД connect()",
-        "SharedFlow replay=1 - команды не теряются"
+        "Диагностика ответов команд",
+        "Логирование sendCommandResult"
       ],
       "required": false
+    },
+    {
+      "version": "1.9.8",
+      "version_code": 24,
+      "release_date": "2026-01-05",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-1.9.8.apk",
+      "size_bytes": 11045103,
+      "sha256": "",
+      "changes": [
+        "КРИТИЧЕСКИЙ ФИКС! AgentService запускается при старте",
+        "Команды работают!"
+      ],
+      "required": true
     }
   ],
   "latest": {
-    "version": "1.9.8",
-    "version_code": 24,
+    "version": "2.0.0",
+    "version_code": 26,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
