@@ -1,29 +1,25 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.2",
   "min_version": "2.0.0",
   "force_update": true,
   "server_url": "https://adb.leetpc.com",
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [
-    "https://adb.leetpc.com",
-    "https://sphereadb-api-v2.ru.tuna.am",
-    "https://sphereadb.ru.tuna.am"
+    "https://adb.leetpc.com"
   ],
   "server": {
     "primary_url": "https://adb.leetpc.com",
     "websocket_path": "/api/v1/agent/ws",
     "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
     "fallback_urls": [
-      "https://adb.leetpc.com",
-      "https://sphereadb-api-v2.ru.tuna.am",
-      "https://sphereadb.ru.tuna.am"
+      "https://adb.leetpc.com"
     ]
   },
   "discovery": {
-    "enabled": true,
+    "enabled": false,
     "remote_config_first": true,
-    "mdns_enabled": true,
-    "network_scan_enabled": true,
+    "mdns_enabled": false,
+    "network_scan_enabled": false,
     "scan_port": 8000,
     "scan_timeout_ms": 3000
   },
@@ -32,12 +28,12 @@
     "reconnect_delay_ms": 5000,
     "max_reconnect_delay_ms": 60000,
     "connection_timeout_ms": 30000,
-    "ping_interval_ms": 20000
+    "ping_interval_ms": 25000
   },
   "stream": {
-    "quality": 70,
-    "fps": 10,
-    "max_dimension": 1280,
+    "quality": 60,
+    "fps": 8,
+    "max_dimension": 960,
     "format": "jpeg"
   },
   "updates": {
@@ -67,6 +63,6 @@
     "remote_logging": true,
     "crash_reporting": true
   },
-  "last_updated": "2026-01-05T18:10:00Z",
-  "updated_at": "2026-01-05T18:10:00Z"
+  "last_updated": "2026-01-05T18:20:00Z",
+  "updated_at": "2026-01-05T18:20:00Z"
 }

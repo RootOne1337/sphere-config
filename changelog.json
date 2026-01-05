@@ -1,18 +1,34 @@
 {
   "versions": [
     {
-      "version": "2.0.1",
-      "version_code": 27,
+      "version": "2.0.2",
+      "version_code": 28,
       "release_date": "2026-01-05",
       "min_sdk": 24,
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "size_bytes": 11045107,
       "sha256": "",
       "changes": [
+        "КРИТИЧЕСКИЙ ФИКС стабильности стрима!",
+        "Отключен OkHttp pingInterval - он вызывал дисконнекты",
+        "Отключено переключение на fallback сервера",
+        "Убраны нерабочие fallback сервера из конфига",
+        "Стабильное соединение при стриме"
+      ],
+      "required": true
+    },
+    {
+      "version": "2.0.1",
+      "version_code": 27,
+      "release_date": "2026-01-05",
+      "min_sdk": 24,
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk",
+      "size_bytes": 11045107,
+      "sha256": "",
+      "changes": [
         "КРИТИЧЕСКИЙ ФИКС reconnect loop!",
         "NetworkReceiver больше не вызывает reconnect если уже подключены",
-        "Debounce 30 секунд между переподключениями",
-        "Стабильное соединение без дисконнектов"
+        "Debounce 30 секунд между переподключениями"
       ],
       "required": true
     },
@@ -21,50 +37,19 @@
       "version_code": 26,
       "release_date": "2026-01-05",
       "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.0.0.apk",
       "size_bytes": 11045103,
       "sha256": "",
       "changes": [
-        "КРИТИЧЕСКИЙ ФИКС стабильности стрима!",
         "Throttling фреймов - предотвращает забивание WebSocket",
-        "Приоритет команд над стримом - команды выполняются мгновенно",
-        "Исправлена обработка heartbeat_ack/registered",
-        "Понижен FPS до 10 для лучшей стабильности"
-      ],
-      "required": true
-    },
-    {
-      "version": "1.9.9",
-      "version_code": 25,
-      "release_date": "2026-01-05",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-1.9.9.apk",
-      "size_bytes": 11045103,
-      "sha256": "",
-      "changes": [
-        "Диагностика ответов команд",
-        "Логирование sendCommandResult"
+        "Приоритет команд над стримом"
       ],
       "required": false
-    },
-    {
-      "version": "1.9.8",
-      "version_code": 24,
-      "release_date": "2026-01-05",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-1.9.8.apk",
-      "size_bytes": 11045103,
-      "sha256": "",
-      "changes": [
-        "КРИТИЧЕСКИЙ ФИКС! AgentService запускается при старте",
-        "Команды работают!"
-      ],
-      "required": true
     }
   ],
   "latest": {
-    "version": "2.0.1",
-    "version_code": 27,
+    "version": "2.0.2",
+    "version_code": 28,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
