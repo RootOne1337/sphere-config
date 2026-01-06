@@ -1,55 +1,22 @@
 {
   "versions": [
     {
-      "version": "2.0.2",
-      "version_code": 28,
-      "release_date": "2026-01-05",
-      "min_sdk": 24,
+      "version": "2.0.3",
+      "version_code": 29,
+      "release_date": "2026-01-06",
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-      "size_bytes": 11045107,
-      "sha256": "",
+      "size_bytes": 11045063,
       "changes": [
-        "КРИТИЧЕСКИЙ ФИКС стабильности стрима!",
-        "Отключен OkHttp pingInterval - он вызывал дисконнекты",
-        "Отключено переключение на fallback сервера",
-        "Убраны нерабочие fallback сервера из конфига",
-        "Стабильное соединение при стриме"
+        "ФИКС стабильности: NetworkReceiver полностью отключён",
+        "Убраны все источники reconnect loop",
+        "Стабильный стрим без дисконнектов"
       ],
       "required": true
-    },
-    {
-      "version": "2.0.1",
-      "version_code": 27,
-      "release_date": "2026-01-05",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk",
-      "size_bytes": 11045107,
-      "sha256": "",
-      "changes": [
-        "КРИТИЧЕСКИЙ ФИКС reconnect loop!",
-        "NetworkReceiver больше не вызывает reconnect если уже подключены",
-        "Debounce 30 секунд между переподключениями"
-      ],
-      "required": true
-    },
-    {
-      "version": "2.0.0",
-      "version_code": 26,
-      "release_date": "2026-01-05",
-      "min_sdk": 24,
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.0.0.apk",
-      "size_bytes": 11045103,
-      "sha256": "",
-      "changes": [
-        "Throttling фреймов - предотвращает забивание WebSocket",
-        "Приоритет команд над стримом"
-      ],
-      "required": false
     }
   ],
   "latest": {
-    "version": "2.0.2",
-    "version_code": 28,
+    "version": "2.0.3",
+    "version_code": 29,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
