@@ -1,47 +1,13 @@
 {
-  "version": "2.0.3",
-  "min_version": "2.0.0",
+  "version": "2.0.4",
+  "version_code": 30,
   "force_update": true,
+  "release_notes": "v2.0.4: Фикс reconnect loop - сервер использует код 1001 для замены соединений",
   "server_url": "https://adb.leetpc.com",
-  "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
-  "fallback_urls": [
-    "https://adb.leetpc.com"
-  ],
-  "server": {
-    "primary_url": "https://adb.leetpc.com",
-    "websocket_path": "/api/v1/agent/ws",
-    "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
-    "fallback_urls": [
-      "https://adb.leetpc.com"
-    ]
-  },
-  "discovery": {
-    "enabled": false,
-    "remote_config_first": true,
-    "mdns_enabled": false,
-    "network_scan_enabled": false
-  },
-  "connection": {
-    "heartbeat_interval_ms": 30000,
-    "reconnect_delay_ms": 5000,
-    "max_reconnect_delay_ms": 60000,
-    "connection_timeout_ms": 30000,
-    "ping_interval_ms": 0
-  },
+  "fallback_urls": ["https://adb.leetpc.com"],
+  "ping_interval_ms": 0,
   "stream": {
     "quality": 60,
-    "fps": 8,
-    "max_dimension": 960,
-    "format": "jpeg"
-  },
-  "updates": {
-    "check_interval_hours": 1,
-    "auto_update": true,
-    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk"
-  },
-  "logging": {
-    "level": "INFO",
-    "remote_logging": true
-  },
-  "last_updated": "2026-01-06T16:00:00Z"
+    "fps": 8
+  }
 }
