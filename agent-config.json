@@ -1,10 +1,10 @@
 {
-  "version": "2.0.4",
-  "version_code": 30,
+  "version": "2.0.5",
+  "version_code": 31,
   "force_update": true,
-  "release_notes": "v2.0.4: Фикс reconnect loop - сервер использует код 1001 для замены соединений",
+  "release_notes": "v2.0.5: Убраны hardcoded fallback URL - только конфигурируемые серверы",
   "server_url": "https://adb.leetpc.com",
-  "fallback_urls": ["https://adb.leetpc.com"],
+  "fallback_urls": [],
   "ping_interval_ms": 0,
   "stream": {
     "quality": 60,
