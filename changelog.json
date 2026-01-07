@@ -1,18 +1,29 @@
 {
   "versions": [
     {
+      "version": "2.0.6",
+      "version_code": 32,
+      "release_date": "2026-01-07",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045063,
+      "changes": [
+        "ФИКС: Убран дублирующий initializeAgent() при старте стрима",
+        "ФИКС: Проверка isConnected перед connect() - не переподключаемся если уже подключены",
+        "Стабильный стрим без сброса при start_stream команде"
+      ],
+      "required": true
+    },
+    {
       "version": "2.0.5",
       "version_code": 31,
       "release_date": "2026-01-07",
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "size_bytes": 11045063,
       "changes": [
-        "ФИКС: Убраны hardcoded fallback URLs - только конфигурируемые серверы",
-        "ФИКС: Mutex для предотвращения параллельных подключений",
-        "ФИКС: Обработка кодов 1001 и 4003 от сервера",
-        "ФИКС: Отмена pending reconnect при новом подключении"
+        "ФИКС: Убраны hardcoded fallback URLs",
+        "ФИКС: Mutex для предотвращения параллельных подключений"
       ],
-      "required": true
+      "required": false
     },
     {
       "version": "2.0.4",
@@ -21,28 +32,14 @@
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "size_bytes": 11045063,
       "changes": [
-        "ФИКС: Mutex для предотвращения параллельных подключений",
-        "ФИКС: Обработка кодов 1001 и 4003",
-        "ФИКС: Отмена pending reconnect"
-      ],
-      "required": false
-    },
-    {
-      "version": "2.0.3",
-      "version_code": 29,
-      "release_date": "2026-01-06",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-      "size_bytes": 11045063,
-      "changes": [
-        "ФИКС стабильности: NetworkReceiver полностью отключён",
-        "Убраны все источники reconnect loop"
+        "ФИКС: Обработка кодов 1001 и 4003"
       ],
       "required": false
     }
   ],
   "latest": {
-    "version": "2.0.5",
-    "version_code": 31,
+    "version": "2.0.6",
+    "version_code": 32,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }

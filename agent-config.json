@@ -1,8 +1,8 @@
 {
-  "version": "2.0.5",
-  "version_code": 31,
+  "version": "2.0.6",
+  "version_code": 32,
   "force_update": true,
-  "release_notes": "v2.0.5: Убраны hardcoded fallback URL - только конфигурируемые серверы",
+  "release_notes": "v2.0.6: Стабильный стрим - не переподключается при start_stream",
   "server_url": "https://adb.leetpc.com",
   "fallback_urls": [],
   "ping_interval_ms": 0,
