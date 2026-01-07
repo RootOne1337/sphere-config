@@ -1,6 +1,33 @@
 {
   "versions": [
     {
+      "version": "2.0.5",
+      "version_code": 31,
+      "release_date": "2026-01-07",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045063,
+      "changes": [
+        "ФИКС: Убраны hardcoded fallback URLs - только конфигурируемые серверы",
+        "ФИКС: Mutex для предотвращения параллельных подключений",
+        "ФИКС: Обработка кодов 1001 и 4003 от сервера",
+        "ФИКС: Отмена pending reconnect при новом подключении"
+      ],
+      "required": true
+    },
+    {
+      "version": "2.0.4",
+      "version_code": 30,
+      "release_date": "2026-01-07",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11045063,
+      "changes": [
+        "ФИКС: Mutex для предотвращения параллельных подключений",
+        "ФИКС: Обработка кодов 1001 и 4003",
+        "ФИКС: Отмена pending reconnect"
+      ],
+      "required": false
+    },
+    {
       "version": "2.0.3",
       "version_code": 29,
       "release_date": "2026-01-06",
@@ -8,15 +35,14 @@
       "size_bytes": 11045063,
       "changes": [
         "ФИКС стабильности: NetworkReceiver полностью отключён",
-        "Убраны все источники reconnect loop",
-        "Стабильный стрим без дисконнектов"
+        "Убраны все источники reconnect loop"
       ],
-      "required": true
+      "required": false
     }
   ],
   "latest": {
-    "version": "2.0.3",
-    "version_code": 29,
+    "version": "2.0.5",
+    "version_code": 31,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
