@@ -1,13 +1,64 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_code": 41,
-  "force_update": true,
-  "release_notes": "v2.2.0: ENTERPRISE UPDATE! SILENT OTA ENABLED! 25+ новых команд!",
+  "force_update": false,
+  "release_notes": "v2.2.1: Connection fix + Silent OTA",
+  
+  "server": {
+    "primary_url": "https://adb.leetpc.com",
+    "fallback_urls": [],
+    "websocket_path": "/api/v1/agent/ws",
+    "api_version": "v1"
+  },
+  
   "server_url": "https://adb.leetpc.com",
+  "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [],
-  "ping_interval_ms": 0,
+  
+  "agent_version": "2.2.1",
+  "min_version": "1.0.0",
+  "update_check_interval": 3600,
+  "heartbeat_interval": 30,
+  
+  "connection": {
+    "reconnect_delay_ms": 5000,
+    "max_reconnect_delay_ms": 60000,
+    "heartbeat_interval_ms": 30000,
+    "connection_timeout_ms": 30000,
+    "max_retries": 0,
+    "backoff_multiplier": 2.0
+  },
+  
   "stream": {
     "quality": 60,
-    "fps": 8
+    "fps": 10,
+    "max_dimension": 1280,
+    "max_fps": 30,
+    "adaptive_quality": true,
+    "compression": "jpeg"
+  },
+  
+  "ota": {
+    "enabled": true,
+    "check_interval_hours": 1,
+    "auto_download": true,
+    "auto_install": true,
+    "wifi_only": false,
+    "changelog_url": "https://raw.githubusercontent.com/RootOne1337/sphere-config/main/changelog.json"
+  },
+  
+  "features": {
+    "shell_commands": true,
+    "file_transfer": true,
+    "app_management": true,
+    "screen_capture": true,
+    "touch_injection": true,
+    "metrics_collection": true
+  },
+  
+  "security": {
+    "require_auth": false,
+    "pin_certificates": false,
+    "allowed_commands": []
   }
 }
