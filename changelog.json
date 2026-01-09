@@ -1,14 +1,14 @@
 {
   "versions": [
     {
-      "version": "2.2.0",
-      "version_code": 41,
+      "version": "2.2.1",
+      "version_code": 42,
       "release_date": "2025-01-26",
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-      "size_bytes": 16392231,
+      "size_bytes": 11045063,
       "changes": [
-        "SILENT OTA: Теперь обновления ставятся сами в фоне!",
-        "ENTERPRISE: 25+ новых команд",
+        "FIX: 100% stable connection logic",
+        "FIX: Fallback to BuildConfig if config fails",
         "НОВОЕ: Система скриптов (V8/Rhino/Shell)",
         "НОВОЕ: Управление файлами (read/write/delete/list)",
         "НОВОЕ: Буфер обмена (clipboard)",
@@ -64,8 +64,8 @@
     }
   ],
   "latest": {
-    "version": "2.2.0",
-    "version_code": 41,
+    "version": "2.2.1",
+    "version_code": 42,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }

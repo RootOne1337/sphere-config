@@ -1,8 +1,8 @@
 {
   "version": "2.2.1",
-  "version_code": 41,
+  "version_code": 42,
   "force_update": false,
-  "release_notes": "v2.2.1: Connection fix + Silent OTA",
+  "release_notes": "v2.2.1: FIX connection - 100% stable!",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
