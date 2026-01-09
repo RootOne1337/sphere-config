@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "version_code": 34,
+  "version_code": 40,
   "force_update": true,
   "release_notes": "v2.2.0: ENTERPRISE UPDATE! 25+ новых команд: скрипты, файлы, буфер обмена, управление приложениями, logcat, screenshots",
   "server_url": "https://adb.leetpc.com",
