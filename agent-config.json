@@ -1,8 +1,8 @@
 {
   "version": "2.2.0",
-  "version_code": 40,
+  "version_code": 41,
   "force_update": true,
-  "release_notes": "v2.2.0: ENTERPRISE UPDATE! 25+ новых команд: скрипты, файлы, буфер обмена, управление приложениями, logcat, screenshots",
+  "release_notes": "v2.2.0: ENTERPRISE UPDATE! SILENT OTA ENABLED! 25+ новых команд!",
   "server_url": "https://adb.leetpc.com",
   "fallback_urls": [],
   "ping_interval_ms": 0,
