@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "version_code": 40,
+      "release_date": "2025-01-26",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16392231,
+      "changes": [
+        "ENTERPRISE: 25+ новых команд",
+        "НОВОЕ: Система скриптов (V8/Rhino/Shell)",
+        "НОВОЕ: Управление файлами (read/write/delete/list)",
+        "НОВОЕ: Буфер обмена (clipboard)",
+        "НОВОЕ: Управление пакетами (install/uninstall/launch)",
+        "НОВОЕ: Логирование (logcat)",
+        "НОВОЕ: Скриншоты и UI Automator",
+        "ФИКС: Стабильность стрима и энергопотребление"
+      ],
+      "required": true
+    },
+    {
       "version": "2.1.0",
       "version_code": 33,
       "release_date": "2026-01-07",
@@ -45,8 +63,8 @@
     }
   ],
   "latest": {
-    "version": "2.1.0",
-    "version_code": 33,
+    "version": "2.2.0",
+    "version_code": 40,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
