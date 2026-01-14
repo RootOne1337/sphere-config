@@ -1,8 +1,8 @@
 {
-  "version": "2.2.1",
-  "version_code": 42,
+  "version": "2.3.0",
+  "version_code": 41,
   "force_update": false,
-  "release_notes": "v2.2.1: FIX connection - 100% stable!",
+  "release_notes": "v2.3.0: Enterprise Edition - Full device control with JSON responses, package management, file operations, device monitoring, UI hierarchy",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -15,7 +15,7 @@
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [],
   
-  "agent_version": "2.2.1",
+  "agent_version": "2.3.0",
   "min_version": "1.0.0",
   "update_check_interval": 3600,
   "heartbeat_interval": 30,
