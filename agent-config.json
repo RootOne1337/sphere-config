@@ -1,8 +1,8 @@
 {
-  "version": "2.3.1",
-  "version_code": 42,
+  "version": "2.3.5",
+  "version_code": 50,
   "force_update": false,
-  "release_notes": "v2.3.1: Added version display in UI + Enterprise device control",
+  "release_notes": "v2.3.5: Stable release with full UI, logs viewer, proper server connection",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -15,7 +15,7 @@
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [],
   
-  "agent_version": "2.3.1",
+  "agent_version": "2.3.5",
   "min_version": "1.0.0",
   "update_check_interval": 3600,
   "heartbeat_interval": 30,
