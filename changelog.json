@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "2.3.1",
+      "version_code": 42,
+      "release_date": "2025-01-14",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16408619,
+      "changes": [
+        "НОВОЕ: Отображение версии приложения в UI",
+        "ENTERPRISE: Full JSON responses for all commands",
+        "Package management, file operations, device monitoring"
+      ],
+      "required": false
+    },
+    {
       "version": "2.3.0",
       "version_code": 41,
       "release_date": "2025-01-14",
@@ -52,8 +65,8 @@
     }
   ],
   "latest": {
-    "version": "2.3.0",
-    "version_code": 41,
+    "version": "2.3.1",
+    "version_code": 42,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
