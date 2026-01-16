@@ -1,8 +1,8 @@
 {
-  "version": "2.4.0",
-  "version_code": 51,
+  "version": "2.5.0",
+  "version_code": 52,
   "force_update": false,
-  "release_notes": "v2.4.0: Полная поддержка XPath/UIAutomator2 в скриптах! XPATH_TAP, XPATH_TEXT, XPATH_WAIT, XPATH_EXISTS, XPATH_SWIPE и универсальный поиск элементов.",
+  "release_notes": "v2.5.0: XPATH_SMART с 6 поведениями! wait_and_tap, if_visible_tap, wait_or_skip, wait_or_fail, retry_until_found, tap_or_fallback. Улучшенная логика ожидания и fallback.",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -15,7 +15,7 @@
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [],
   
-  "agent_version": "2.4.0",
+  "agent_version": "2.5.0",
   "min_version": "1.0.0",
   "update_check_interval": 3600,
   "heartbeat_interval": 30,

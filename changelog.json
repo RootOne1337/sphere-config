@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "2.5.0",
+      "version_code": 52,
+      "release_date": "2026-01-16",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 23631860,
+      "changes": [
+        "НОВОЕ: XPATH_SMART - умный XPath с 6 поведениями!",
+        "НОВОЕ: wait_and_tap - ждать элемент и тап (стандарт)",
+        "НОВОЕ: if_visible_tap - тап только если элемент виден",
+        "НОВОЕ: wait_or_skip - ждать или пропустить шаг",
+        "НОВОЕ: wait_or_fail - ждать или ошибка скрипта",
+        "НОВОЕ: retry_until_found - повторять поиск до успеха",
+        "НОВОЕ: tap_or_fallback - тап или fallback координаты",
+        "УЛУЧШЕНО: Логика ожидания элементов",
+        "УЛУЧШЕНО: Обработка fallback координат"
+      ],
+      "required": true
+    },
+    {
       "version": "2.4.0",
       "version_code": 51,
       "release_date": "2026-01-15",
@@ -85,8 +104,8 @@
     }
   ],
   "latest": {
-    "version": "2.4.0",
-    "version_code": 51,
+    "version": "2.5.0",
+    "version_code": 52,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
