@@ -1,6 +1,27 @@
 {
   "versions": [
     {
+      "version": "2.6.0",
+      "version_code": 53,
+      "release_date": "2026-01-19",
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.6.0/SphereAgent-v2.6.0.apk",
+      "size_bytes": 11061447,
+      "md5": "86658811b56dcd81904fd6094f988b83",
+      "changes": [
+        "НОВОЕ: Enterprise Stability - стабильный стриминг!",
+        "НОВОЕ: Heartbeat интервал 15 секунд (было 30)",
+        "НОВОЕ: Fast reconnect 0.5s-15s (было 1s-60s)",
+        "НОВОЕ: OkHttp ping каждые 20 секунд",
+        "НОВОЕ: 5 мгновенных попыток реконнекта",
+        "НОВОЕ: Stream protection 120 секунд",
+        "ФИКС: Больше нет дисконнектов во время игр!",
+        "ФИКС: Backend Reaper теперь щадящий (8/20 heartbeats)"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.5.0",
       "version_code": 52,
       "release_date": "2026-01-16",
@@ -18,7 +39,7 @@
         "УЛУЧШЕНО: Логика ожидания элементов",
         "УЛУЧШЕНО: Обработка fallback координат"
       ],
-      "required": true,
+      "required": false,
       "rollout_percentage": 100,
       "min_sdk": 24
     },
@@ -41,86 +62,16 @@
         "НОВОЕ: DOUBLE_TAP - двойной тап по координатам",
         "УЛУЧШЕНО: WAIT_FOR_ELEMENT теперь использует XPath"
       ],
-      "required": true,
-      "rollout_percentage": 100,
-      "min_sdk": 24
-    },
-    {
-      "version": "2.2.1",
-      "version_code": 42,
-      "release_date": "2025-01-26",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.2.1.apk",
-      "size_bytes": 11045063,
-      "changes": [
-        "FIX: 100% stable connection logic",
-        "FIX: Fallback to BuildConfig if config fails",
-        "НОВОЕ: Система скриптов (V8/Rhino/Shell)",
-        "НОВОЕ: Управление файлами (read/write/delete/list)",
-        "НОВОЕ: Буфер обмена (clipboard)",
-        "НОВОЕ: Управление пакетами (install/uninstall/launch)",
-        "НОВОЕ: Логирование (logcat)",
-        "НОВОЕ: Скриншоты и UI Automator",
-        "ФИКС: Стабильность стрима и энергопотребление"
-      ],
-      "required": true,
-      "rollout_percentage": 100,
-      "min_sdk": 24
-    },
-    {
-      "version": "2.1.0",
-      "version_code": 33,
-      "release_date": "2026-01-07",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.2.1.apk",
-      "size_bytes": 11045063,
-      "changes": [
-        "НОВОЕ: Синхронизация буфера обмена (clipboard_set/get)",
-        "НОВОЕ: Расширенные жесты (pinch, rotate, key_combo)",
-        "НОВОЕ: Файловые операции (list, read, delete, mkdir)",
-        "НОВОЕ: Управление приложениями (launch, stop, clear data)",
-        "НОВОЕ: Logcat management (получение и очистка логов)",
-        "НОВОЕ: UI Hierarchy dump для автоматизации",
-        "НОВОЕ: Скриншот в base64 формате",
-        "НОВОЕ: Информация о батарее и сети"
-      ],
-      "required": true,
-      "rollout_percentage": 100,
-      "min_sdk": 24
-    },
-    {
-      "version": "2.0.6",
-      "version_code": 32,
-      "release_date": "2026-01-07",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.2.1.apk",
-      "size_bytes": 11045063,
-      "changes": [
-        "ФИКС: Убран дублирующий initializeAgent() при старте стрима",
-        "ФИКС: Проверка isConnected перед connect() - не переподключаемся если уже подключены",
-        "Стабильный стрим без сброса при start_stream команде"
-      ],
-      "required": false,
-      "rollout_percentage": 100,
-      "min_sdk": 24
-    },
-    {
-      "version": "2.0.5",
-      "version_code": 31,
-      "release_date": "2026-01-07",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.2.1.apk",
-      "size_bytes": 11045063,
-      "changes": [
-        "ФИКС: Убраны hardcoded fallback URLs",
-        "ФИКС: Mutex для предотвращения параллельных подключений"
-      ],
       "required": false,
       "rollout_percentage": 100,
       "min_sdk": 24
     }
   ],
   "latest": {
-    "version": "2.5.0",
-    "version_code": 52,
-    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-2.5.0.apk",
-    "sha256": "1aaefc02542b78df3c44b678b26808fa71cafd679e42683adb09c7508cc73c0d"
+    "version": "2.6.0",
+    "version_code": 53,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.6.0/SphereAgent-v2.6.0.apk",
+    "md5": "86658811b56dcd81904fd6094f988b83"
   },
   "enterprise": {
     "rollout_enabled": true,
