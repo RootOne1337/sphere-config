@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.9.0",
+      "version_code": 56,
+      "release_date": "2026-01-21",
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.9.0/app-release.apk",
+      "size_bytes": 11061527,
+      "md5": "013bb31d239d546850e63e76a1c1d97c",
+      "changes": [
+        "КРИТИЧНО: On-demand streaming - NO TRAFFIC без viewers!",
+        "КРИТИЧНО: Стрим только когда есть подключённые зрители!",
+        "КРИТИЧНО: pauseStream/resumeStream для мгновенного управления",
+        "ЭКОНОМИЯ: 65GB→0 трафика за ночь когда никто не смотрит"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.8.0",
       "version_code": 55,
       "release_date": "2026-01-21",
@@ -104,10 +121,10 @@
     }
   ],
   "latest": {
-    "version": "2.8.0",
-    "version_code": 55,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.8.0/SphereAgent-v2.8.0.apk",
-    "md5": "9e16860022b2644bed77dd6fddda0c28"
+    "version": "2.9.0",
+    "version_code": 56,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.9.0/app-release.apk",
+    "md5": "013bb31d239d546850e63e76a1c1d97c"
   },
   "enterprise": {
     "rollout_enabled": true,
