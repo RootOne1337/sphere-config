@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "2.7.0",
+      "version_code": 54,
+      "release_date": "2026-01-21",
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.7.0/SphereAgent-v2.7.0.apk",
+      "size_bytes": 11061447,
+      "md5": "9f7d7788d19f214bf1e7256fe582b583",
+      "changes": [
+        "НОВОЕ: Clone Detection - уникальный ID для каждого клона эмулятора!",
+        "НОВОЕ: XPATH_POOL - оптимизированный поиск элементов (1 dump на 30+ элементов)",
+        "НОВОЕ: Low FPS Stability - работает даже при 1 FPS",
+        "УЛУЧШЕНО: Fingerprint comparison для детекции клонов",
+        "УЛУЧШЕНО: Environment fingerprint (ANDROID_ID, Build.SERIAL, boot_id, MAC)"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.6.0",
       "version_code": 53,
       "release_date": "2026-01-19",
@@ -17,7 +35,7 @@
         "ФИКС: Больше нет дисконнектов во время игр!",
         "ФИКС: Backend Reaper теперь щадящий (8/20 heartbeats)"
       ],
-      "required": true,
+      "required": false,
       "rollout_percentage": 100,
       "min_sdk": 24
     },
@@ -68,10 +86,10 @@
     }
   ],
   "latest": {
-    "version": "2.6.0",
-    "version_code": 53,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.6.0/SphereAgent-v2.6.0.apk",
-    "md5": "86658811b56dcd81904fd6094f988b83"
+    "version": "2.7.0",
+    "version_code": 54,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.7.0/SphereAgent-v2.7.0.apk",
+    "md5": "9f7d7788d19f214bf1e7256fe582b583"
   },
   "enterprise": {
     "rollout_enabled": true,
