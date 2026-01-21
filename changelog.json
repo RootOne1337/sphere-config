@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.13.0",
+      "version_code": 60,
+      "release_date": "2026-01-21",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
+      "size_bytes": 11077943,
+      "md5": "16a2bb0422961136c39b597580fdbce6",
+      "changes": [
+        "КРИТИЧНО: start_stream ПРИНУДИТЕЛЬНО стартует RootScreenCaptureService!",
+        "КРИТИЧНО: Добавлен delay + resume после старта сервиса!",
+        "КРИТИЧНО: UI кнопка Start теперь тоже использует ROOT capture!",
+        "ДИАГНОСТИКА: Подробное логирование статуса ROOT capture"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.12.0",
       "version_code": 59,
       "release_date": "2026-01-21",
@@ -172,10 +189,10 @@
     }
   ],
   "latest": {
-    "version": "2.12.0",
-    "version_code": 59,
+    "version": "2.13.0",
+    "version_code": 60,
     "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
-    "md5": "3ed434031b11b6e2dfeab9ce68c9df1d"
+    "md5": "16a2bb0422961136c39b597580fdbce6"
   },
   "enterprise": {
     "rollout_enabled": true,
