@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "2.8.0",
+      "version_code": 55,
+      "release_date": "2026-01-21",
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.8.0/SphereAgent-v2.8.0.apk",
+      "size_bytes": 11061527,
+      "md5": "9e16860022b2644bed77dd6fddda0c28",
+      "changes": [
+        "КРИТИЧНО: MY_PACKAGE_REPLACED - автозапуск после OTA обновления!",
+        "КРИТИЧНО: Версия ВСЕГДА из BuildConfig (не из remote config!)",
+        "КРИТИЧНО: Перезапуск после ROOT silent install",
+        "НОВОЕ: BootReceiver с retry логикой (повтор через 5 сек)",
+        "ОТКАЗОУСТОЙЧИВОСТЬ: 1000+ эмуляторов не положат систему"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.7.0",
       "version_code": 54,
       "release_date": "2026-01-21",
@@ -14,7 +32,7 @@
         "УЛУЧШЕНО: Fingerprint comparison для детекции клонов",
         "УЛУЧШЕНО: Environment fingerprint (ANDROID_ID, Build.SERIAL, boot_id, MAC)"
       ],
-      "required": true,
+      "required": false,
       "rollout_percentage": 100,
       "min_sdk": 24
     },
@@ -86,10 +104,10 @@
     }
   ],
   "latest": {
-    "version": "2.7.0",
-    "version_code": 54,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.7.0/SphereAgent-v2.7.0.apk",
-    "md5": "9f7d7788d19f214bf1e7256fe582b583"
+    "version": "2.8.0",
+    "version_code": 55,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.8.0/SphereAgent-v2.8.0.apk",
+    "md5": "9e16860022b2644bed77dd6fddda0c28"
   },
   "enterprise": {
     "rollout_enabled": true,

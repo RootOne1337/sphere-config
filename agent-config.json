@@ -1,12 +1,12 @@
 {
-  "version": "2.7.0",
-  "version_code": 54,
+  "version": "2.8.0",
+  "version_code": 55,
   "force_update": true,
-  "release_notes": "v2.7.0 ENTERPRISE: 1) Clone Detection - каждый клон эмулятора получает уникальный ID! 2) XPATH_POOL - видим элемент → нажимаем (оптимизировано: 1 dump для 30+ элементов). 3) Low FPS stability - работает даже при 1 FPS.",
+  "release_notes": "v2.8.0 ОТКАЗОУСТОЙЧИВОСТЬ: 1) MY_PACKAGE_REPLACED - автозапуск после OTA! 2) Версия ВСЕГДА из BuildConfig (не из remote config!). 3) Перезапуск после ROOT install. 4) 1000+ эмуляторов - не положат систему!",
   
-  "apk_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/releases/SphereAgent-v2.7.0.apk",
-  "apk_size": 11061447,
-  "apk_md5": "9f7d7788d19f214bf1e7256fe582b583",
+  "apk_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.8.0/SphereAgent-v2.8.0.apk",
+  "apk_size": 11061527,
+  "apk_md5": "9e16860022b2644bed77dd6fddda0c28",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -19,7 +19,6 @@
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [],
   
-  "agent_version": "2.6.0",
   "min_version": "1.0.0",
   "update_check_interval": 3600,
   "heartbeat_interval": 15,
