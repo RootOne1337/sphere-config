@@ -2,11 +2,11 @@
   "version": "2.15.0",
   "version_code": 62,
   "force_update": true,
-  "release_notes": "v2.15.0 DEBUG MODE: Добавлена команда debug_capture для диагностики. Теперь можно узнать почему стрим не работает!",
+  "release_notes": "v2.15.0 DEBUG: Детальное логирование capture loop через android.util.Log",
   
   "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
   "apk_size": 11077939,
-  "apk_md5": "3a8f0c3e675ca6333f04e2c6b625f2a6",
+  "apk_md5": "5b1a3c84d581b281f6f6d351fba721ab",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
