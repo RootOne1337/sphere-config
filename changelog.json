@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.14.0",
+      "version_code": 61,
+      "release_date": "2026-01-21",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
+      "size_bytes": 11077943,
+      "md5": "e129c146d859d09e93c8a2caf07006e7",
+      "changes": [
+        "КРИТИЧНО: Intent-based resume() - ГАРАНТИРОВАННО работает!",
+        "КРИТИЧНО: ACTION_RESUME/ACTION_PAUSE через Intent!",
+        "КРИТИЧНО: Сервис НЕ требует кнопки Start Agent!",
+        "ФИКС: Увеличен delay после start (800ms) для надёжности"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.13.0",
       "version_code": 60,
       "release_date": "2026-01-21",
@@ -12,23 +29,6 @@
         "КРИТИЧНО: Добавлен delay + resume после старта сервиса!",
         "КРИТИЧНО: UI кнопка Start теперь тоже использует ROOT capture!",
         "ДИАГНОСТИКА: Подробное логирование статуса ROOT capture"
-      ],
-      "required": true,
-      "rollout_percentage": 100,
-      "min_sdk": 24
-    },
-    {
-      "version": "2.12.0",
-      "version_code": 59,
-      "release_date": "2026-01-21",
-      "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
-      "size_bytes": 11077943,
-      "md5": "3ed434031b11b6e2dfeab9ce68c9df1d",
-      "changes": [
-        "КРИТИЧНО: RootScreenCaptureService ВСЕГДА запускается автоматически!",
-        "КРИТИЧНО: БОЛЬШЕ НЕ НУЖНА КНОПКА START AGENT! 100%!",
-        "КРИТИЧНО: Зашел в веб → нажал на эмулятор → сразу видео!",
-        "ФИКС: Убрана проверка hasRoot при авто-старте сервиса"
       ],
       "required": true,
       "rollout_percentage": 100,
@@ -189,10 +189,10 @@
     }
   ],
   "latest": {
-    "version": "2.13.0",
-    "version_code": 60,
+    "version": "2.14.0",
+    "version_code": 61,
     "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
-    "md5": "16a2bb0422961136c39b597580fdbce6"
+    "md5": "e129c146d859d09e93c8a2caf07006e7"
   },
   "enterprise": {
     "rollout_enabled": true,
