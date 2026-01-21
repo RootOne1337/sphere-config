@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.11.0",
+      "version_code": 58,
+      "release_date": "2026-01-21",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
+      "size_bytes": 11077943,
+      "md5": "ee69d6f9fd54c9248f0fe447769d49e6",
+      "changes": [
+        "КРИТИЧНО: AUTO-ROOT STREAMING - всегда пробуем ROOT если нет MediaProjection!",
+        "КРИТИЧНО: Больше НЕ нужна кнопка Start Agent в приложении!",
+        "КРИТИЧНО: Стрим запускается автоматически при просмотре в веб!",
+        "ФИКС: hasRootAccess проверка убрана - просто пробуем ROOT"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.10.0",
       "version_code": 57,
       "release_date": "2026-01-21",
@@ -138,10 +155,10 @@
     }
   ],
   "latest": {
-    "version": "2.10.0",
-    "version_code": 57,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.10.0/app-release.apk",
-    "md5": "2c3072d9fe2ca6e0d0a42f8b1ad80713"
+    "version": "2.11.0",
+    "version_code": 58,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
+    "md5": "ee69d6f9fd54c9248f0fe447769d49e6"
   },
   "enterprise": {
     "rollout_enabled": true,
