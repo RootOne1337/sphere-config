@@ -2,11 +2,11 @@
   "version": "2.15.0",
   "version_code": 62,
   "force_update": true,
-  "release_notes": "v2.15.0 DEBUG: Детальное логирование capture loop через android.util.Log",
+  "release_notes": "v2.15.0 DEBUG: Все логи через android.util.Log для отладки capture loop",
   
   "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
   "apk_size": 11077939,
-  "apk_md5": "5b1a3c84d581b281f6f6d351fba721ab",
+  "apk_md5": "82a88d94df33455e909613f2fd4f8971",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
