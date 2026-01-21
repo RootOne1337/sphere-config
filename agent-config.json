@@ -1,12 +1,12 @@
 {
-  "version": "2.6.0",
-  "version_code": 53,
-  "force_update": false,
-  "release_notes": "v2.6.0: Enterprise Stability! Heartbeat 15s, fast reconnect 0.5s-15s, OkHttp ping 20s, stream protection 120s. Стабильный стриминг без дисконнектов во время игр!",
+  "version": "2.7.0",
+  "version_code": 54,
+  "force_update": true,
+  "release_notes": "v2.7.0 ENTERPRISE: 1) Clone Detection - каждый клон эмулятора получает уникальный ID! 2) XPATH_POOL - видим элемент → нажимаем (оптимизировано: 1 dump для 30+ элементов). 3) Low FPS stability - работает даже при 1 FPS.",
   
-  "apk_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.6.0/SphereAgent-v2.6.0.apk",
+  "apk_url": "https://github.com/RootOne1337/SphereAgent-APK/raw/main/releases/SphereAgent-v2.7.0.apk",
   "apk_size": 11061447,
-  "apk_md5": "86658811b56dcd81904fd6094f988b83",
+  "apk_md5": "9f7d7788d19f214bf1e7256fe582b583",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
