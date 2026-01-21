@@ -1,12 +1,12 @@
 {
-  "version": "2.11.0",
-  "version_code": 58,
+  "version": "2.15.0",
+  "version_code": 62,
   "force_update": true,
-  "release_notes": "v2.11.0 AUTO-ROOT STREAMING: Теперь ВСЕГДА пробуем ROOT screencap если нет MediaProjection. Больше не нужна кнопка Start Agent - стрим запускается автоматически при просмотре в веб!",
+  "release_notes": "v2.15.0 DEBUG MODE: Добавлена команда debug_capture для диагностики. Теперь можно узнать почему стрим не работает!",
   
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
-  "apk_size": 11077943,
-  "apk_md5": "ee69d6f9fd54c9248f0fe447769d49e6",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
+  "apk_size": 11077939,
+  "apk_md5": "3a8f0c3e675ca6333f04e2c6b625f2a6",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
