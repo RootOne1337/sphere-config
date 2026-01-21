@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.15.0",
+      "version_code": 62,
+      "release_date": "2026-01-22",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
+      "size_bytes": 11077939,
+      "md5": "27077f532206b261c762d9c470ae8ff8",
+      "changes": [
+        "КРИТИЧНО: chmod 644 после screencap - файл теперь читаем приложением!",
+        "КРИТИЧНО: Исправлен Permission denied при чтении скриншота!",
+        "КРИТИЧНО: Стрим через ROOT теперь РАБОТАЕТ!",
+        "ДИАГНОСТИКА: Подробное логирование через android.util.Log"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.14.0",
       "version_code": 61,
       "release_date": "2026-01-21",
@@ -189,10 +206,10 @@
     }
   ],
   "latest": {
-    "version": "2.14.0",
-    "version_code": 61,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
-    "md5": "e129c146d859d09e93c8a2caf07006e7"
+    "version": "2.15.0",
+    "version_code": 62,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
+    "md5": "27077f532206b261c762d9c470ae8ff8"
   },
   "enterprise": {
     "rollout_enabled": true,
