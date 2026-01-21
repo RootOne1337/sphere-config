@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.10.0",
+      "version_code": 57,
+      "release_date": "2026-01-21",
+      "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.10.0/app-release.apk",
+      "size_bytes": 11061527,
+      "md5": "2c3072d9fe2ca6e0d0a42f8b1ad80713",
+      "changes": [
+        "КРИТИЧНО: ROOT Streaming Fallback - НЕ нужно нажимать Start!",
+        "НОВОЕ: RootScreenCaptureService - стрим через screencap (ROOT)",
+        "НОВОЕ: Автозапуск RootScreenCaptureService при boot",
+        "КРИТИЧНО: Мгновенный стрим когда viewer подключается в вебе"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.9.0",
       "version_code": 56,
       "release_date": "2026-01-21",
@@ -121,10 +138,10 @@
     }
   ],
   "latest": {
-    "version": "2.9.0",
-    "version_code": 56,
-    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.9.0/app-release.apk",
-    "md5": "013bb31d239d546850e63e76a1c1d97c"
+    "version": "2.10.0",
+    "version_code": 57,
+    "download_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.10.0/app-release.apk",
+    "md5": "2c3072d9fe2ca6e0d0a42f8b1ad80713"
   },
   "enterprise": {
     "rollout_enabled": true,
