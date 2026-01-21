@@ -1,12 +1,12 @@
 {
-  "version": "2.8.0",
-  "version_code": 55,
+  "version": "2.11.0",
+  "version_code": 58,
   "force_update": true,
-  "release_notes": "v2.8.0 ОТКАЗОУСТОЙЧИВОСТЬ: 1) MY_PACKAGE_REPLACED - автозапуск после OTA! 2) Версия ВСЕГДА из BuildConfig (не из remote config!). 3) Перезапуск после ROOT install. 4) 1000+ эмуляторов - не положат систему!",
+  "release_notes": "v2.11.0 AUTO-ROOT STREAMING: Теперь ВСЕГДА пробуем ROOT screencap если нет MediaProjection. Больше не нужна кнопка Start Agent - стрим запускается автоматически при просмотре в веб!",
   
-  "apk_url": "https://github.com/RootOne1337/SphereAgent-APK/releases/download/v2.8.0/SphereAgent-v2.8.0.apk",
-  "apk_size": 11061527,
-  "apk_md5": "9e16860022b2644bed77dd6fddda0c28",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent.apk",
+  "apk_size": 11077943,
+  "apk_md5": "ee69d6f9fd54c9248f0fe447769d49e6",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
