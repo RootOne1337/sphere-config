@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.16.0",
+      "version_code": 63,
+      "release_date": "2026-01-22",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.16.0.apk",
+      "size_bytes": 11077943,
+      "md5": "d12bf2c6fff69426189322aef68da242",
+      "changes": [
+        "КАЧЕСТВО: JPEG quality 85% (было 70%)",
+        "КАЧЕСТВО: Full resolution без downscale (было inSampleSize=2)",
+        "КАЧЕСТВО: FPS 15 (было 10)",
+        "КАЧЕСТВО: max_dimension 1920 (было 1280)"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.15.0",
       "version_code": 62,
       "release_date": "2026-01-22",
@@ -206,10 +223,10 @@
     }
   ],
   "latest": {
-    "version": "2.15.0",
-    "version_code": 62,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
-    "md5": "27077f532206b261c762d9c470ae8ff8"
+    "version": "2.16.0",
+    "version_code": 63,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.16.0.apk",
+    "md5": "d12bf2c6fff69426189322aef68da242"
   },
   "enterprise": {
     "rollout_enabled": true,

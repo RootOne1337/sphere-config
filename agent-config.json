@@ -1,12 +1,12 @@
 {
-  "version": "2.15.0",
-  "version_code": 62,
+  "version": "2.16.0",
+  "version_code": 63,
   "force_update": true,
-  "release_notes": "v2.15.0 FIX: chmod 644 после screencap - файл теперь читаем приложением!",
+  "release_notes": "v2.16.0: Улучшено качество стрима - quality 85%, FPS 15, full resolution!",
   
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.15.0.apk",
-  "apk_size": 11077939,
-  "apk_md5": "27077f532206b261c762d9c470ae8ff8",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.16.0.apk",
+  "apk_size": 11077943,
+  "apk_md5": "d12bf2c6fff69426189322aef68da242",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -33,11 +33,11 @@
   },
   
   "stream": {
-    "quality": 60,
-    "fps": 10,
-    "max_dimension": 1280,
+    "quality": 85,
+    "fps": 15,
+    "max_dimension": 1920,
     "max_fps": 30,
-    "adaptive_quality": true,
+    "adaptive_quality": false,
     "compression": "jpeg"
   },
   
