@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "2.17.0",
+      "version_code": 64,
+      "release_date": "2026-01-22",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.17.0.apk",
+      "size_bytes": 11077943,
+      "md5": "5a605ac46c5fd82e658f162ae82a0d62",
+      "changes": [
+        "ENTERPRISE: AlarmManager watchdog каждые 5 минут",
+        "ENTERPRISE: WorkManager health check каждые 15 минут",
+        "ENTERPRISE: onTaskRemoved() - авто-рестарт при swipe-удалении",
+        "ENTERPRISE: onDestroy() - авто-рестарт при kill системой",
+        "ENTERPRISE: OTA jitter 0-30 мин для 1000+ устройств",
+        "ENTERPRISE: Сервис НИКОГДА не остановится!"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.16.0",
       "version_code": 63,
       "release_date": "2026-01-22",
@@ -223,10 +242,10 @@
     }
   ],
   "latest": {
-    "version": "2.16.0",
-    "version_code": 63,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.16.0.apk",
-    "md5": "d12bf2c6fff69426189322aef68da242"
+    "version": "2.17.0",
+    "version_code": 64,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.17.0.apk",
+    "md5": "5a605ac46c5fd82e658f162ae82a0d62"
   },
   "enterprise": {
     "rollout_enabled": true,

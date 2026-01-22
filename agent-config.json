@@ -1,12 +1,12 @@
 {
-  "version": "2.16.0",
-  "version_code": 63,
+  "version": "2.17.0",
+  "version_code": 64,
   "force_update": true,
-  "release_notes": "v2.16.0: Улучшено качество стрима - quality 85%, FPS 15, full resolution!",
+  "release_notes": "v2.17.0: Enterprise Fault Tolerance - AlarmManager watchdog, WorkManager health check, onTaskRemoved/onDestroy auto-restart, OTA jitter for 1000+ devices",
   
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.16.0.apk",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.17.0.apk",
   "apk_size": 11077943,
-  "apk_md5": "d12bf2c6fff69426189322aef68da242",
+  "apk_md5": "5a605ac46c5fd82e658f162ae82a0d62",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
