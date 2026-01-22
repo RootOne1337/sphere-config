@@ -4,6 +4,9 @@
       "version": "2.20.0",
       "version_code": 67,
       "release_date": "2026-01-22",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.20.0.apk",
+      "size_bytes": 11094547,
+      "md5": "8738b07db2e063b2d17de7ec5fc078e9",
       "required": true,
       "changes": [
         "[ENTERPRISE] ContentProvider - запускается ОЧЕНЬ РАНО, раньше Application.onCreate()!",
@@ -293,10 +296,10 @@
     }
   ],
   "latest": {
-    "version": "2.19.0",
-    "version_code": 66,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.19.0.apk",
-    "md5": "e1b0726a8454be1ac5df80d7cf1ccc8d"
+    "version": "2.20.0",
+    "version_code": 67,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.20.0.apk",
+    "md5": "8738b07db2e063b2d17de7ec5fc078e9"
   },
   "enterprise": {
     "rollout_enabled": true,
