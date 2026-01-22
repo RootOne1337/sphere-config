@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "2.19.0",
+      "version_code": 66,
+      "release_date": "2026-01-22",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.19.0.apk",
+      "size_bytes": 11078500,
+      "md5": "e1b0726a8454be1ac5df80d7cf1ccc8d",
+      "changes": [
+        "ROOT INIT SCRIPT: Установка скрипта в /data/adb/service.d",
+        "MAGISK MODULE: Автоматическая установка модуля для автозапуска",
+        "GUARANTEED BOOT: Запуск через am start-foreground-service",
+        "FALLBACK: Запуск MainActivity + broadcast BOOT_COMPLETED",
+        "RETRY: Повторная попытка если первый запуск не удался",
+        "LOG: Логирование в /data/local/tmp/sphere-agent-boot.log"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.18.0",
       "version_code": 65,
       "release_date": "2026-01-22",
@@ -261,10 +280,10 @@
     }
   ],
   "latest": {
-    "version": "2.18.0",
-    "version_code": 65,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.18.0.apk",
-    "md5": "16024123c65d5112e20617bad03b7aab"
+    "version": "2.19.0",
+    "version_code": 66,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.19.0.apk",
+    "md5": "e1b0726a8454be1ac5df80d7cf1ccc8d"
   },
   "enterprise": {
     "rollout_enabled": true,
