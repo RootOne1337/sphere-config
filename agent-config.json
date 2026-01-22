@@ -1,12 +1,12 @@
 {
-  "version": "2.20.0",
-  "version_code": 67,
+  "version": "2.21.0",
+  "version_code": 68,
   "force_update": true,
-  "release_notes": "v2.20.0: ULTIMATE AUTO-START - ContentProvider + JobScheduler (persisted) + WorkManager - ГАРАНТИРОВАННЫЙ запуск!",
+  "release_notes": "v2.21.0: LDPLAYER BOOT FIX - directBootAware + LOCKED_BOOT_COMPLETED + все vendor boot actions!",
   
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.20.0.apk",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.21.0.apk",
   "apk_size": 11100000,
-  "apk_md5": "8738b07db2e063b2d17de7ec5fc078e9",
+  "apk_md5": "d4ac31ac8a1ea363b0aff3554d0ebe04",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
