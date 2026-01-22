@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "2.20.0",
+      "version_code": 67,
+      "release_date": "2026-01-22",
+      "required": true,
+      "changes": [
+        "[ENTERPRISE] ContentProvider - запускается ОЧЕНЬ РАНО, раньше Application.onCreate()!",
+        "[ENTERPRISE] JobScheduler с persisted=true - переживает reboot БЕЗ BootReceiver!",
+        "[ENTERPRISE] BootJobService - immediate job при boot + periodic каждые 15 мин",
+        "[FIX] Полный stack: ContentProvider → JobScheduler → WorkManager → AlarmManager → ROOT",
+        "[STABILITY] Теперь 5 независимых механизмов автозапуска!"
+      ]
+    },
+    {
       "version": "2.19.0",
       "version_code": 66,
       "release_date": "2026-01-22",

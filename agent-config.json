@@ -1,12 +1,12 @@
 {
-  "version": "2.19.0",
-  "version_code": 66,
+  "version": "2.20.0",
+  "version_code": 67,
   "force_update": true,
-  "release_notes": "v2.19.0: ROOT INIT SCRIPT - гарантированный автозапуск через init.d/service.d при каждой загрузке!",
+  "release_notes": "v2.20.0: ULTIMATE AUTO-START - ContentProvider + JobScheduler (persisted) + WorkManager - ГАРАНТИРОВАННЫЙ запуск!",
   
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.19.0.apk",
-  "apk_size": 11078500,
-  "apk_md5": "e1b0726a8454be1ac5df80d7cf1ccc8d",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.20.0.apk",
+  "apk_size": 11100000,
+  "apk_md5": "8738b07db2e063b2d17de7ec5fc078e9",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
