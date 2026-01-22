@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "2.18.0",
+      "version_code": 65,
+      "release_date": "2026-01-22",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.18.0.apk",
+      "size_bytes": 11078083,
+      "md5": "16024123c65d5112e20617bad03b7aab",
+      "changes": [
+        "ROOT AUTO-START: am start-foreground-service через ROOT!",
+        "ROOT: Battery optimization whitelist автоматически",
+        "ROOT: Persistent app mode - система НЕ УБЬЁТ приложение!",
+        "ROOT: pm enable BootReceiver - гарантированный BOOT_COMPLETED",
+        "ENTERPRISE: 3 попытки запуска (стандарт, retry, ROOT)",
+        "ENTERPRISE: foregroundServiceType=specialUse для Android 14+"
+      ],
+      "required": true,
+      "rollout_percentage": 100,
+      "min_sdk": 24
+    },
+    {
       "version": "2.17.0",
       "version_code": 64,
       "release_date": "2026-01-22",
@@ -242,10 +261,10 @@
     }
   ],
   "latest": {
-    "version": "2.17.0",
-    "version_code": 64,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.17.0.apk",
-    "md5": "5a605ac46c5fd82e658f162ae82a0d62"
+    "version": "2.18.0",
+    "version_code": 65,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.18.0.apk",
+    "md5": "16024123c65d5112e20617bad03b7aab"
   },
   "enterprise": {
     "rollout_enabled": true,
