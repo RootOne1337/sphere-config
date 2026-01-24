@@ -1,12 +1,12 @@
 {
-  "version": "2.22.0",
-  "version_code": 69,
+  "version": "2.25.0",
+  "version_code": 72,
   "force_update": true,
-  "release_notes": "v2.22.0: INIT.RC AUTO-START - самый жёсткий автозапуск через init.rc + root-скрипт с таймаутом!",
+  "release_notes": "v2.25.0: Enterprise Orchestration - связывание скриптов с триггерами, multi-output blocks, error handling!",
   
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v2.22.0.apk",
-  "apk_size": 11094835,
-  "apk_md5": "c6d2ed258a41bb300df7ee1ebe1379be",
+  "apk_url": "https://adb.leetpc.com/apk/SphereAgent-v2.25.0.apk",
+  "apk_size": 11111223,
+  "apk_md5": "ce09c885cef830b34e33305814865600",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
