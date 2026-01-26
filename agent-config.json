@@ -1,12 +1,11 @@
 {
-  "version": "2.25.0",
-  "version_code": 72,
+  "version": "2.28.0",
+  "version_code": 78,
   "force_update": true,
-  "release_notes": "v2.25.0: Enterprise Orchestration - связывание скриптов с триггерами, multi-output blocks, error handling!",
-  
-  "apk_url": "https://adb.leetpc.com/apk/SphereAgent-v2.25.0.apk",
-  "apk_size": 11111223,
-  "apk_md5": "ce09c885cef830b34e33305814865600",
+  "release_notes": "v2.28.0: ENTERPRISE - Полная поддержка всех нод Visual Editor! VAR_SET, MATH, RANDOM, COUNTER, WHILE, LOOP_FOREVER, OCR, Templates, Pixels, Clipboard и др.",
+  "apk_url": "https://adb.leetpc.com/apk/SphereAgent-v2.28.0.apk",
+  "apk_size": 11143987,
+  "apk_md5": "dd549b3a08d65ff9d581062bc183c483",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
