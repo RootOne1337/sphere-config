@@ -1,15 +1,16 @@
 # 📊 PROJECT STATE - sphere-config
 
-**Last Updated:** 2026-01-26
-**Version:** v2.28.0
+**Last Updated:** 2026-01-27
+**Version:** v3.0.0
 **Status:** 🟢 Active
 
 ---
 
-## 🚀 v2.28.0 - OTA APK Metadata Refresh (2026-01-26)
+## 🚀 v3.0.0 - H.264 OTA Release (2026-01-27)
 
 ### ✅ Changes
-- **agent-config.json:** Обновлены `apk_size` и `apk_md5` для актуального APK.
+- **agent-config.json:** Обновлены метаданные OTA для v3.0.0.
+- **changelog.json:** Добавлена версия v3.0.0 + обновлён `latest`.
 
 ### 📋 Components
 - `agent-config.json`: Основные настройки агента.

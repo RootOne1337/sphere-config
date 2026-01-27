@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "3.0.0",
+      "version_code": 79,
+      "release_date": "2026-01-27",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-3.0.0.apk",
+      "size_bytes": 23693784,
+      "md5": "478810b1726e2ffc5079622a5693764d",
+      "sha256": "21f1ee2b9c89b0e6f8c81e3e05628d4a31730d0be473b3ac1cf3291ebcceeecb",
+      "required": true,
+      "changes": [
+        "[H.264] Hardware video streaming via MediaCodec",
+        "[PERF] 93% bandwidth reduction (1.5 MB/s → 100 KB/s)",
+        "[PERF] Sub-50ms latency (20-55ms)",
+        "[PERF] 0-2% CPU usage (hardware encoder)",
+        "[ENTERPRISE] On-demand streaming (only selected devices)",
+        "[WEB] WebCodecs H.264 decoding (Chrome/Edge/Safari)",
+        "[AUTO] Auto-start streaming from web"
+      ]
+    },
+    {
       "version": "2.28.0",
       "version_code": 78,
       "release_date": "2026-01-26",
@@ -326,10 +345,10 @@
     }
   ],
   "latest": {
-    "version": "2.28.0",
-    "version_code": 78,
-    "download_url": "https://adb.leetpc.com/apk/SphereAgent-v2.28.0.apk",
-    "md5": "4cfba4f6bcb5809eae17f29425704eab"
+    "version": "3.0.0",
+    "version_code": 79,
+    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk",
+    "md5": "478810b1726e2ffc5079622a5693764d"
   },
   "enterprise": {
     "rollout_enabled": true,
