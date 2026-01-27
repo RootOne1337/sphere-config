@@ -1,11 +1,11 @@
 {
-  "version": "2.28.0",
-  "version_code": 78,
+  "version": "3.0.0",
+  "version_code": 79,
   "force_update": true,
-  "release_notes": "v2.28.0: ENTERPRISE - Полная поддержка всех нод Visual Editor! VAR_SET, MATH, RANDOM, COUNTER, WHILE, LOOP_FOREVER, OCR, Templates, Pixels, Clipboard и др.",
-  "apk_url": "https://adb.leetpc.com/apk/SphereAgent-v2.28.0.apk",
-  "apk_size": 11061523,
-  "apk_md5": "4cfba4f6bcb5809eae17f29425704eab",
+  "release_notes": "v3.0.0: H.264 HARDWARE VIDEO STREAMING - 93% bandwidth reduction, sub-50ms latency, 0-2% CPU usage. On-demand streaming только для выбранных устройств.",
+  "apk_url": "https://adb.leetpc.com/apk/SphereAgent-v3.0.0.apk",
+  "apk_size": 23693784,
+  "apk_md5": "478810b1726e2ffc5079622a5693764d",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -37,7 +37,8 @@
     "max_dimension": 1920,
     "max_fps": 30,
     "adaptive_quality": false,
-    "compression": "jpeg"
+    "compression": "h264",
+    "bitrate_preset": "medium"
   },
   
   "ota": {
