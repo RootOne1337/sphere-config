@@ -4,7 +4,7 @@
       "version": "3.0.0",
       "version_code": 79,
       "release_date": "2026-01-27",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-3.0.0.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.0.apk",
       "size_bytes": 23693784,
       "md5": "478810b1726e2ffc5079622a5693764d",
       "sha256": "21f1ee2b9c89b0e6f8c81e3e05628d4a31730d0be473b3ac1cf3291ebcceeecb",
@@ -347,7 +347,7 @@
   "latest": {
     "version": "3.0.0",
     "version_code": 79,
-    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-latest.apk",
+    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
     "md5": "478810b1726e2ffc5079622a5693764d"
   },
   "enterprise": {
