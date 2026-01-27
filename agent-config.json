@@ -4,8 +4,8 @@
   "force_update": true,
   "release_notes": "v2.28.0: ENTERPRISE - Полная поддержка всех нод Visual Editor! VAR_SET, MATH, RANDOM, COUNTER, WHILE, LOOP_FOREVER, OCR, Templates, Pixels, Clipboard и др.",
   "apk_url": "https://adb.leetpc.com/apk/SphereAgent-v2.28.0.apk",
-  "apk_size": 11143987,
-  "apk_md5": "dd549b3a08d65ff9d581062bc183c483",
+  "apk_size": 11061523,
+  "apk_md5": "4cfba4f6bcb5809eae17f29425704eab",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
