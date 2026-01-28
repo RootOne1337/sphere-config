@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.0.2",
+      "version_code": 81,
+      "release_date": "2026-01-28",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.2.apk",
+      "size_bytes": 11143995,
+      "md5": "487fc3e0dfb110416df34926d13b8c4c",
+      "sha256": "c58bb0e5cb7fdc535c87bb1c10c183be1747f0e082e6b9f65cfd3b65be869060",
+      "required": true,
+      "changes": [
+        "[CRITICAL] Переключено на JPEG streaming (compression:jpeg)",
+        "[FIX] ROOT capture работает БЕЗ MediaProjection permission!",
+        "[FIX] Черный экран исправлен - теперь стрим работает сразу",
+        "[ENTERPRISE] 1000+ эмуляторов без UI interaction"
+      ]
+    },
+    {
       "version": "3.0.1",
       "version_code": 80,
       "release_date": "2026-01-28",
@@ -8,7 +24,7 @@
       "size_bytes": 23693788,
       "md5": "d1a2ee85d047690882d173461491267a",
       "sha256": "cfda689dd4fb52bb7cffef8e6e830ee45bb9dc6881e4437fc14ff1c085679832",
-      "required": true,
+      "required": false,
       "changes": [
         "[FIX] start_stream запускает H.264 encoder сразу",
         "[FIX] Авто-запуск ScreenCaptureService перед стримом",
@@ -361,10 +377,10 @@
     }
   ],
   "latest": {
-    "version": "3.0.1",
-    "version_code": 80,
+    "version": "3.0.2",
+    "version_code": 81,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "d1a2ee85d047690882d173461491267a"
+    "md5": "487fc3e0dfb110416df34926d13b8c4c"
   },
   "enterprise": {
     "rollout_enabled": true,

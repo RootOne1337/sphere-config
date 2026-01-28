@@ -1,11 +1,11 @@
 {
-  "version": "3.0.1",
-  "version_code": 80,
+  "version": "3.0.2",
+  "version_code": 81,
   "force_update": true,
-  "release_notes": "v3.0.1: FIX - H.264 start_stream запускает encoder сразу, авто-запрос MediaProjection, без JPEG fallback.",
-  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.1.apk",
-  "apk_size": 23693788,
-  "apk_md5": "d1a2ee85d047690882d173461491267a",
+  "release_notes": "v3.0.2: FIX - JPEG streaming, ROOT capture работает БЕЗ MediaProjection, черный экран исправлен!",
+  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.2.apk",
+  "apk_size": 11143995,
+  "apk_md5": "487fc3e0dfb110416df34926d13b8c4c",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
