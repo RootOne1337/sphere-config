@@ -37,7 +37,7 @@
     "max_dimension": 1920,
     "max_fps": 30,
     "adaptive_quality": false,
-    "compression": "h264",
+    "compression": "jpeg",
     "bitrate_preset": "medium"
   },
   
