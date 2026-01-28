@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "3.1.0",
+      "version_code": 82,
+      "release_date": "2026-01-28",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/3.1.0.apk",
+      "size_bytes": 11160423,
+      "md5": "10f0cb9fb8588ee70c3e5c0f01704857",
+      "sha256": "9960fc96f4a4d081f716f3fc1d733dc5d5c43a7e1c056d06e8f550900fe53060",
+      "required": true,
+      "changes": [
+        "[H.264 ROOT] НАСТОЯЩИЙ видеопоток через screenrecord!",
+        "[H.264 ROOT] БЕЗ MediaProjection - работает на headless!",
+        "[H.264 ROOT] 30 FPS при минимальном CPU (hardware encoder)",
+        "[PERF] Quality 80, FPS 30 по умолчанию",
+        "[ENTERPRISE] 1000+ эмуляторов с реальным H.264 видео",
+        "[ZERO TRAFFIC] Нет трафика если viewer не подключён"
+      ]
+    },
+    {
       "version": "3.0.2",
       "version_code": 81,
       "release_date": "2026-01-28",
@@ -8,7 +26,7 @@
       "size_bytes": 11143995,
       "md5": "487fc3e0dfb110416df34926d13b8c4c",
       "sha256": "c58bb0e5cb7fdc535c87bb1c10c183be1747f0e082e6b9f65cfd3b65be869060",
-      "required": true,
+      "required": false,
       "changes": [
         "[CRITICAL] Переключено на JPEG streaming (compression:jpeg)",
         "[FIX] ROOT capture работает БЕЗ MediaProjection permission!",
@@ -377,10 +395,10 @@
     }
   ],
   "latest": {
-    "version": "3.0.2",
-    "version_code": 81,
+    "version": "3.1.0",
+    "version_code": 82,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "487fc3e0dfb110416df34926d13b8c4c"
+    "md5": "10f0cb9fb8588ee70c3e5c0f01704857"
   },
   "enterprise": {
     "rollout_enabled": true,

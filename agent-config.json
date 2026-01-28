@@ -1,11 +1,11 @@
 {
-  "version": "3.0.2",
-  "version_code": 81,
+  "version": "3.1.0",
+  "version_code": 82,
   "force_update": true,
-  "release_notes": "v3.0.2: FIX - JPEG streaming, ROOT capture работает БЕЗ MediaProjection, черный экран исправлен!",
-  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.2.apk",
-  "apk_size": 11143995,
-  "apk_md5": "487fc3e0dfb110416df34926d13b8c4c",
+  "release_notes": "v3.1.0: REAL H.264 video stream via ROOT screenrecord! Hardware encoding, minimal latency, 90% less bandwidth.",
+  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.1.0.apk",
+  "apk_size": 11200000,
+  "apk_md5": "pending",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -33,11 +33,11 @@
   
   "stream": {
     "quality": 85,
-    "fps": 15,
+    "fps": 30,
     "max_dimension": 1920,
     "max_fps": 30,
     "adaptive_quality": false,
-    "compression": "jpeg",
+    "compression": "auto",
     "bitrate_preset": "medium"
   },
   
