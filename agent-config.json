@@ -1,11 +1,11 @@
 {
-  "version": "3.0.0",
-  "version_code": 79,
+  "version": "3.0.1",
+  "version_code": 80,
   "force_update": true,
-  "release_notes": "v3.0.0: H.264 HARDWARE VIDEO STREAMING - 93% bandwidth reduction, sub-50ms latency, 0-2% CPU usage. On-demand streaming только для выбранных устройств.",
-  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.0.apk",
-  "apk_size": 23693784,
-  "apk_md5": "478810b1726e2ffc5079622a5693764d",
+  "release_notes": "v3.0.1: FIX - H.264 start_stream запускает encoder сразу, авто-запрос MediaProjection, без JPEG fallback.",
+  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.1.apk",
+  "apk_size": 23693788,
+  "apk_md5": "d1a2ee85d047690882d173461491267a",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",

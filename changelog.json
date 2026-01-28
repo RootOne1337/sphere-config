@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.0.1",
+      "version_code": 80,
+      "release_date": "2026-01-28",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/3.0.1.apk",
+      "size_bytes": 23693788,
+      "md5": "d1a2ee85d047690882d173461491267a",
+      "sha256": "cfda689dd4fb52bb7cffef8e6e830ee45bb9dc6881e4437fc14ff1c085679832",
+      "required": true,
+      "changes": [
+        "[FIX] start_stream запускает H.264 encoder сразу",
+        "[FIX] Авто-запуск ScreenCaptureService перед стримом",
+        "[FIX] Авто-запрос MediaProjection при отсутствии разрешения",
+        "[FIX] JPEG fallback отключён при compression=h264"
+      ]
+    },
+    {
       "version": "3.0.0",
       "version_code": 79,
       "release_date": "2026-01-27",
@@ -345,10 +361,10 @@
     }
   ],
   "latest": {
-    "version": "3.0.0",
-    "version_code": 79,
+    "version": "3.0.1",
+    "version_code": 80,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "478810b1726e2ffc5079622a5693764d"
+    "md5": "d1a2ee85d047690882d173461491267a"
   },
   "enterprise": {
     "rollout_enabled": true,
