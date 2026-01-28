@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "3.1.1",
+      "version_code": 83,
+      "release_date": "2026-01-28",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11160419,
+      "md5": "bd3137879c115cd67ac64c836d75159f",
+      "sha256": "27f85ae42a03aaae22987cc3d44dc4deeef4d273f730bd7d9cd335bde7e14666",
+      "required": true,
+      "changes": [
+        "[CRITICAL FIX] WebCodecs keyframe error solved!",
+        "[H.264] SPS+PPS+IDR отправляются вместе как один keyframe",
+        "[H.264] Правильный флаг hasSPS для декодера",
+        "[STREAM] Delta frames только после первого keyframe",
+        "[ENTERPRISE] H.264 ROOT стриминг работает!"
+      ]
+    },
+    {
       "version": "3.1.0",
       "version_code": 82,
       "release_date": "2026-01-28",
@@ -8,7 +25,7 @@
       "size_bytes": 11160423,
       "md5": "10f0cb9fb8588ee70c3e5c0f01704857",
       "sha256": "9960fc96f4a4d081f716f3fc1d733dc5d5c43a7e1c056d06e8f550900fe53060",
-      "required": true,
+      "required": false,
       "changes": [
         "[H.264 ROOT] НАСТОЯЩИЙ видеопоток через screenrecord!",
         "[H.264 ROOT] БЕЗ MediaProjection - работает на headless!",
@@ -395,10 +412,10 @@
     }
   ],
   "latest": {
-    "version": "3.1.0",
-    "version_code": 82,
+    "version": "3.1.1",
+    "version_code": 83,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "10f0cb9fb8588ee70c3e5c0f01704857"
+    "md5": "bd3137879c115cd67ac64c836d75159f"
   },
   "enterprise": {
     "rollout_enabled": true,
