@@ -1,11 +1,11 @@
 {
-  "version": "3.1.0",
-  "version_code": 82,
+  "version": "3.3.1",
+  "version_code": 88,
   "force_update": true,
-  "release_notes": "v3.1.0: REAL H.264 video stream via ROOT screenrecord! Hardware encoding, minimal latency, 90% less bandwidth.",
-  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/3.1.0.apk",
-  "apk_size": 11200000,
-  "apk_md5": "pending",
+  "release_notes": "v3.3.1: Optimized stream for lower latency and resource usage",
+  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+  "apk_size": 11160419,
+  "apk_md5": "",
   
   "server": {
     "primary_url": "https://adb.leetpc.com",

@@ -1,6 +1,39 @@
 {
   "versions": [
     {
+      "version": "3.3.1",
+      "version_code": 88,
+      "release_date": "2026-01-30",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11160419,
+      "md5": "",
+      "sha256": "d7ec782edb6d50b37f77867d455eaf43c099fd190a4e575fe6a9e7cce9191b21",
+      "required": true,
+      "changes": [
+        "[PERF] Снижены дефолтные FPS и bitrate для уменьшения нагрузки",
+        "[PERF] Уменьшено базовое разрешение стрима",
+        "[STREAM] Увеличен интервал keyframe для стабильности"
+      ]
+    },
+    {
+      "version": "3.2.0",
+      "version_code": 84,
+      "release_date": "2026-01-28",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11200000,
+      "md5": "",
+      "sha256": "",
+      "required": true,
+      "changes": [
+        "[ENTERPRISE] AUTO-START - никакого ручного START на 1000 эмуляторов!",
+        "[H.264 ONLY] Убран JPEG fallback - только H.264 ROOT screenrecord",
+        "[AUTO-CONNECT] Стрим запускается автоматически при регистрации",
+        "[NEW UI] Enterprise интерфейс с live-логами",
+        "[FIX] Один режим стрима - нет переключения JPEG/H.264",
+        "[ZERO TRAFFIC] Стрим в PAUSED до open от viewer"
+      ]
+    },
+    {
       "version": "3.1.1",
       "version_code": 83,
       "release_date": "2026-01-28",
@@ -412,10 +445,10 @@
     }
   ],
   "latest": {
-    "version": "3.1.1",
-    "version_code": 83,
+    "version": "3.3.1",
+    "version_code": 88,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "bd3137879c115cd67ac64c836d75159f"
+    "md5": ""
   },
   "enterprise": {
     "rollout_enabled": true,
