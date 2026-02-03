@@ -1,14 +1,49 @@
 {
   "versions": [
     {
+      "version": "3.5.1",
+      "version_code": 91,
+      "release_date": "2026-02-02",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11160423,
+      "md5": "",
+      "sha256": "949e107e18a35c86542c331754939018ffbd6ab0f2e48f6d5890e844bcd38591",
+      "required": true,
+      "changes": [
+        "[CRITICAL] Исправлены ANR на LDPlayer Android 9!",
+        "[FIX] Добавлены таймауты для всех process.waitFor() вызовов",
+        "[FIX] MainViewModel.checkRootAccess() - withContext(IO) + 3s timeout",
+        "[FIX] RootAutoStart - hasRootAccess() 3s, executeRootCommand() 5s timeout",
+        "[FIX] H264RootStreamService.checkH264Support() - suspend + 3s timeout",
+        "[FIX] SlotConfig.getprop() - 3s timeout",
+        "[FIX] UpdateManager - silentInstallViaRoot 10s timeout",
+        "[PERF] Keyframe interval 10s для стабильности стрима"
+      ]
+    },
+    {
+      "version": "3.5.0",
+      "version_code": 90,
+      "release_date": "2026-02-02",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-3.5.0.apk",
+      "size_bytes": 11160419,
+      "md5": "",
+      "sha256": "",
+      "required": false,
+      "changes": [
+        "[ENTERPRISE] Script Log Sender - батчевая отправка логов для 1000+ эмуляторов",
+        "[ENTERPRISE] BATCH_SIZE=50, FLUSH_INTERVAL=2s, MAX_BUFFER=1000",
+        "[STREAM] H.264 ROOT streaming с оптимизированными параметрами"
+      ]
+    },
+    {
       "version": "3.3.1",
       "version_code": 88,
       "release_date": "2026-01-30",
-      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/sphere-agent-3.3.1.apk",
       "size_bytes": 11160419,
       "md5": "",
       "sha256": "d7ec782edb6d50b37f77867d455eaf43c099fd190a4e575fe6a9e7cce9191b21",
-      "required": true,
+      "required": false,
       "changes": [
         "[PERF] Снижены дефолтные FPS и bitrate для уменьшения нагрузки",
         "[PERF] Уменьшено базовое разрешение стрима",
@@ -445,10 +480,11 @@
     }
   ],
   "latest": {
-    "version": "3.3.1",
-    "version_code": 88,
+    "version": "3.5.1",
+    "version_code": 91,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": ""
+    "md5": "",
+    "sha256": "949e107e18a35c86542c331754939018ffbd6ab0f2e48f6d5890e844bcd38591"
   },
   "enterprise": {
     "rollout_enabled": true,
