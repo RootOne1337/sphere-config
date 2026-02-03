@@ -1,6 +1,26 @@
 {
   "versions": [
     {
+      "version": "3.5.4",
+      "version_code": 94,
+      "release_date": "2026-02-03",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16491199,
+      "md5": "e7fc8c1b989e8cdef60c06f46335144d",
+      "sha256": "86bde63331efa8c44c47400513e25e4a8abfb44bb274067169c516fd55c8c36d",
+      "required": true,
+      "changes": [
+        "[CRITICAL] Performance & Stability Optimization",
+        "[PERF] ROOT_CHECK_INTERVAL: 5s -> 30s (6x less CPU)",
+        "[PERF] KEYFRAME_RESTART_INTERVAL: 15s -> 120s (8x less)",
+        "[PERF] BATCH_FLUSH_INTERVAL: 500ms -> 2000ms (4x less)",
+        "[PERF] XPath POLL_INTERVAL: 500ms -> 1500ms (3x less)",
+        "[FIX] Disabled redundant ConnectionWatchdog (dups HealthMetrics)",
+        "[FIX] Disabled redundant BootJobService",
+        "[FIX] Fixed ScriptRunner scope leaks with SupervisorJob"
+      ]
+    },
+    {
       "version": "3.5.3",
       "version_code": 93,
       "release_date": "2026-02-03",
@@ -8,7 +28,7 @@
       "size_bytes": 11160419,
       "md5": "",
       "sha256": "f763d076bf6f3260d83652d34ed3d5515250320749883f08b32edec11e519422",
-      "required": true,
+      "required": false,
       "changes": [
         "[CRITICAL] FIX: APK теперь отправляет полный execution_id на сервер!",
         "[FIX] ScriptStatus включает executionId (полный UUID) для корректной привязки",
@@ -512,11 +532,11 @@
     }
   ],
   "latest": {
-    "version": "3.5.2",
-    "version_code": 92,
+    "version": "3.5.4",
+    "version_code": 94,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "",
-    "sha256": "f37df484737d2844c7a1a4bbbce721db5411eb7278079fed94ae69e51cde0f52"
+    "md5": "e7fc8c1b989e8cdef60c06f46335144d",
+    "sha256": "86bde63331efa8c44c47400513e25e4a8abfb44bb274067169c516fd55c8c36d"
   },
   "enterprise": {
     "rollout_enabled": true,
