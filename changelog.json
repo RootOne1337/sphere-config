@@ -3,11 +3,11 @@
     {
       "version": "3.5.1",
       "version_code": 91,
-      "release_date": "2026-02-02",
+      "release_date": "2026-02-03",
       "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "size_bytes": 11160423,
       "md5": "",
-      "sha256": "949e107e18a35c86542c331754939018ffbd6ab0f2e48f6d5890e844bcd38591",
+      "sha256": "5df0016d7c24a136565481e1ee35727547c83c95f2fbdcf909f16bc5eca0480f",
       "required": true,
       "changes": [
         "[CRITICAL] Исправлены ANR на LDPlayer Android 9!",
@@ -17,7 +17,8 @@
         "[FIX] H264RootStreamService.checkH264Support() - suspend + 3s timeout",
         "[FIX] SlotConfig.getprop() - 3s timeout",
         "[FIX] UpdateManager - silentInstallViaRoot 10s timeout",
-        "[PERF] Keyframe interval 10s для стабильности стрима"
+        "[PERF] Keyframe interval 10s для стабильности стрима",
+        "[OTA] jsDelivr CDN для мгновенного обновления changelog"
       ]
     },
     {
@@ -484,7 +485,7 @@
     "version_code": 91,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
     "md5": "",
-    "sha256": "949e107e18a35c86542c331754939018ffbd6ab0f2e48f6d5890e844bcd38591"
+    "sha256": "5df0016d7c24a136565481e1ee35727547c83c95f2fbdcf909f16bc5eca0480f"
   },
   "enterprise": {
     "rollout_enabled": true,
