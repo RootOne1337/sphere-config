@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "3.5.2",
+      "version_code": 92,
+      "release_date": "2026-02-03",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11160419,
+      "md5": "",
+      "sha256": "f37df484737d2844c7a1a4bbbce721db5411eb7278079fed94ae69e51cde0f52",
+      "required": true,
+      "changes": [
+        "[CRITICAL] FIX: Логи скриптов теперь привязаны к server execution_id!",
+        "[FIX] ScriptEngine использует execution_id из сервера вместо генерации нового",
+        "[FIX] Логи теперь корректно отображаются в GlobalLogsPanel на фронтенде"
+      ]
+    },
+    {
       "version": "3.5.1",
       "version_code": 91,
       "release_date": "2026-02-03",
@@ -481,11 +496,11 @@
     }
   ],
   "latest": {
-    "version": "3.5.1",
-    "version_code": 91,
+    "version": "3.5.2",
+    "version_code": 92,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
     "md5": "",
-    "sha256": "5df0016d7c24a136565481e1ee35727547c83c95f2fbdcf909f16bc5eca0480f"
+    "sha256": "f37df484737d2844c7a1a4bbbce721db5411eb7278079fed94ae69e51cde0f52"
   },
   "enterprise": {
     "rollout_enabled": true,
