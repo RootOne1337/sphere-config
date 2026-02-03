@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.5.3",
+      "version_code": 93,
+      "release_date": "2026-02-03",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 11160419,
+      "md5": "",
+      "sha256": "f763d076bf6f3260d83652d34ed3d5515250320749883f08b32edec11e519422",
+      "required": true,
+      "changes": [
+        "[CRITICAL] FIX: APK теперь отправляет полный execution_id на сервер!",
+        "[FIX] ScriptStatus включает executionId (полный UUID) для корректной привязки",
+        "[FIX] Все статусы скриптов (script_status, batch) включают execution_id",
+        "[FIX] Логи GlobalLogsPanel теперь отображаются корректно"
+      ]
+    },
+    {
       "version": "3.5.2",
       "version_code": 92,
       "release_date": "2026-02-03",
