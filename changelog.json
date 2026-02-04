@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "3.5.6",
+      "version_code": 96,
+      "release_date": "2026-02-04",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16491199,
+      "md5": "2b64c4c48ffa86bc6a727597f122a8fd",
+      "sha256": "82fdf17e6ce9ad977d8b15517c1de019689b2639f483a610bc488b876309407e",
+      "required": true,
+      "changes": [
+        "[FIX] ScriptEventBus JSON escaping - properly escape \\n\\r\\t and control chars",
+        "[FIX] Script error messages now parse correctly on server",
+        "[FIX] Fixed Invalid control character JSON parse errors"
+      ]
+    },
+    {
       "version": "3.5.5",
       "version_code": 95,
       "release_date": "2026-02-04",
