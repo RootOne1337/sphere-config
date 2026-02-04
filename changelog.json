@@ -1,20 +1,32 @@
 {
-  "latest_version": "3.5.8",
-  "latest_version_code": 98,
+  "latest_version": "3.5.9",
+  "latest_version_code": 99,
   "update_required": true,
   "releases": [
+    {
+      "version": "3.5.9",
+      "version_code": 99,
+      "release_date": "2025-02-04",
+      "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "changes": [
+        "ENTERPRISE: Massive CPU and Memory optimizations",
+        "DNS-over-HTTPS fallback (Google/Cloudflare) when system DNS fails",
+        "Lazy Root Discovery - reduces background load by 30%",
+        "Increased streaming stability for large fleets (1000+ devices)",
+        "Fixed Script Log serialization issues"
+      ],
+      "priority": "critical"
+    },
     {
       "version": "3.5.8",
       "version_code": 98,
       "release_date": "2025-02-04",
-      "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
       "changes": [
         "CRITICAL: IP fallback on DNS resolution failure",
         "Auto-switch to next server when DNS/connection error",
         "Hardcoded production IP in APK (212.220.204.72)",
         "Improved fault tolerance for emulator fleets"
-      ],
-      "priority": "critical"
+      ]
     },
     {
       "version": "3.5.7",
