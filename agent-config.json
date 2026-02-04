@@ -9,14 +9,22 @@
   
   "server": {
     "primary_url": "https://adb.leetpc.com",
-    "fallback_urls": [],
+    "fallback_urls": [
+      "http://212.220.204.72:8001",
+      "http://212.220.204.72:8000",
+      "https://sphereadb-api-v2.ru.tuna.am"
+    ],
     "websocket_path": "/api/v1/agent/ws",
     "api_version": "v1"
   },
   
   "server_url": "https://adb.leetpc.com",
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
-  "fallback_urls": [],
+  "fallback_urls": [
+    "http://212.220.204.72:8001",
+    "http://212.220.204.72:8000",
+    "https://sphereadb-api-v2.ru.tuna.am"
+  ],
   
   "min_version": "1.0.0",
   "update_check_interval": 3600,
