@@ -1,12 +1,11 @@
 {
-  "version": "3.5.8",
-  "version_code": 98,
+  "version": "3.5.9",
+  "version_code": 99,
   "force_update": true,
-  "release_notes": "v3.5.8: CRITICAL - IP fallback on DNS failure, automatic server switching",
+  "release_notes": "v3.5.9: FIX - JSON serialization for script_log_batch",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 16507583,
   "apk_md5": "",
-  
   "server": {
     "primary_url": "https://adb.leetpc.com",
     "fallback_urls": [
@@ -18,7 +17,6 @@
     "websocket_path": "/api/v1/agent/ws",
     "api_version": "v1"
   },
-  
   "server_url": "https://adb.leetpc.com",
   "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
   "fallback_urls": [
@@ -27,11 +25,9 @@
     "https://212.220.204.72",
     "https://sphereadb-api-v2.ru.tuna.am"
   ],
-  
   "min_version": "1.0.0",
   "update_check_interval": 3600,
   "heartbeat_interval": 15,
-  
   "connection": {
     "reconnect_delay_ms": 500,
     "max_reconnect_delay_ms": 15000,
@@ -40,7 +36,6 @@
     "max_retries": 0,
     "backoff_multiplier": 1.5
   },
-  
   "stream": {
     "quality": 85,
     "fps": 30,
@@ -50,7 +45,6 @@
     "compression": "auto",
     "bitrate_preset": "medium"
   },
-  
   "ota": {
     "enabled": true,
     "check_interval_hours": 1,
@@ -59,7 +53,6 @@
     "wifi_only": false,
     "changelog_url": "https://raw.githubusercontent.com/RootOne1337/sphere-config/main/changelog.json"
   },
-  
   "features": {
     "shell_commands": true,
     "file_transfer": true,
@@ -68,20 +61,17 @@
     "touch_injection": true,
     "metrics_collection": true
   },
-  
   "security": {
     "require_auth": false,
     "pin_certificates": false,
     "allowed_commands": []
   },
-  
   "emergency": {
     "enabled": false,
     "commands": [],
     "last_updated": "2025-01-23T00:00:00Z",
     "message": ""
   },
-  
   "discovery": {
     "doh_servers": [
       "https://cloudflare-dns.com/dns-query",
@@ -97,5 +87,6 @@
     "ip_fallbacks": [
       "212.220.204.72"
     ]
-  }
+  },
+  "versionCode": 99
 }
