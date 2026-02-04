@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.5.5",
+      "version_code": 95,
+      "release_date": "2026-02-04",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16491199,
+      "md5": "9b10099e831b3eebedc69821756ffa73",
+      "sha256": "f198767673bdc037c2873cda526ca0e45d51781505dc1a08f7745eacbe7c4bb9",
+      "required": true,
+      "changes": [
+        "[CRITICAL] Script Log Sender FIXED - logs now sent to server!",
+        "[FIX] ScriptLogSender correctly initialized and sends log batches",
+        "[FIX] All script logs now appear in web UI GlobalLogsPanel",
+        "[FIX] Script execution logs correctly stored in database"
+      ]
+    },
+    {
       "version": "3.5.4",
       "version_code": 94,
       "release_date": "2026-02-03",
@@ -532,11 +548,11 @@
     }
   ],
   "latest": {
-    "version": "3.5.4",
-    "version_code": 94,
+    "version": "3.5.5",
+    "version_code": 95,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-    "md5": "e7fc8c1b989e8cdef60c06f46335144d",
-    "sha256": "86bde63331efa8c44c47400513e25e4a8abfb44bb274067169c516fd55c8c36d"
+    "md5": "9b10099e831b3eebedc69821756ffa73",
+    "sha256": "f198767673bdc037c2873cda526ca0e45d51781505dc1a08f7745eacbe7c4bb9"
   },
   "enterprise": {
     "rollout_enabled": true,
