@@ -1,42 +1,52 @@
 {
-  "latest_version": "3.5.9",
-  "latest_version_code": 99,
-  "update_required": true,
-  "releases": [
+  "versions": [
     {
       "version": "3.5.9",
       "version_code": 99,
       "release_date": "2025-02-04",
-      "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16507743,
+      "sha256": "",
       "changes": [
-        "ENTERPRISE: Massive CPU and Memory optimizations",
-        "DNS-over-HTTPS fallback (Google/Cloudflare) when system DNS fails",
-        "Lazy Root Discovery - reduces background load by 30%",
-        "Increased streaming stability for large fleets (1000+ devices)",
-        "Fixed Script Log serialization issues"
+        "FIX: JSON serialization for script_log_batch",
+        "Script logs now correctly sent to backend",
+        "Improved logging and debugging"
       ],
-      "priority": "critical"
+      "required": true
     },
     {
       "version": "3.5.8",
       "version_code": 98,
       "release_date": "2025-02-04",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16507583,
+      "sha256": "",
       "changes": [
         "CRITICAL: IP fallback on DNS resolution failure",
         "Auto-switch to next server when DNS/connection error",
         "Hardcoded production IP in APK (212.220.204.72)",
         "Improved fault tolerance for emulator fleets"
-      ]
+      ],
+      "required": false
     },
     {
       "version": "3.5.7",
       "version_code": 97,
       "release_date": "2025-01-23",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 0,
+      "sha256": "",
       "changes": [
         "Multi-CDN config sources",
         "Emergency command execution",
         "HTTP polling fallback"
-      ]
+      ],
+      "required": false
     }
-  ]
+  ],
+  "latest": {
+    "version": "3.5.9",
+    "version_code": 99,
+    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
+  }
 }
