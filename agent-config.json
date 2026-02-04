@@ -1,8 +1,8 @@
 {
-  "version": "3.3.1",
-  "version_code": 88,
+  "version": "3.5.7",
+  "version_code": 97,
   "force_update": true,
-  "release_notes": "v3.3.1: Optimized stream for lower latency and resource usage",
+  "release_notes": "v3.5.7: FAULT-TOLERANT architecture - multi-CDN config, IP fallbacks, emergency commands, HTTP polling backup",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 11160419,
   "apk_md5": "",
@@ -71,5 +71,29 @@
     "require_auth": false,
     "pin_certificates": false,
     "allowed_commands": []
+  },
+  
+  "emergency": {
+    "enabled": false,
+    "commands": [],
+    "last_updated": "2025-01-23T00:00:00Z",
+    "message": ""
+  },
+  
+  "discovery": {
+    "doh_servers": [
+      "https://cloudflare-dns.com/dns-query",
+      "https://dns.google/resolve",
+      "https://dns.quad9.net:5053/dns-query"
+    ],
+    "config_sources": [
+      "https://raw.githubusercontent.com/RootOne1337/sphere-config/main/agent-config.json",
+      "https://cdn.jsdelivr.net/gh/RootOne1337/sphere-config@main/agent-config.json",
+      "https://cdn.statically.io/gh/RootOne1337/sphere-config/main/agent-config.json",
+      "https://rawcdn.githack.com/RootOne1337/sphere-config/main/agent-config.json"
+    ],
+    "ip_fallbacks": [
+      "212.220.204.72"
+    ]
   }
 }
