@@ -1,10 +1,10 @@
 {
-  "version": "3.5.7",
-  "version_code": 97,
+  "version": "3.5.8",
+  "version_code": 98,
   "force_update": true,
-  "release_notes": "v3.5.7: FAULT-TOLERANT architecture - multi-CDN config, IP fallbacks, emergency commands, HTTP polling backup",
+  "release_notes": "v3.5.8: CRITICAL - IP fallback on DNS failure, automatic server switching",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 11160419,
+  "apk_size": 16507583,
   "apk_md5": "",
   
   "server": {
@@ -12,6 +12,7 @@
     "fallback_urls": [
       "http://212.220.204.72:8001",
       "http://212.220.204.72:8000",
+      "https://212.220.204.72",
       "https://sphereadb-api-v2.ru.tuna.am"
     ],
     "websocket_path": "/api/v1/agent/ws",
@@ -23,6 +24,7 @@
   "fallback_urls": [
     "http://212.220.204.72:8001",
     "http://212.220.204.72:8000",
+    "https://212.220.204.72",
     "https://sphereadb-api-v2.ru.tuna.am"
   ],
   
