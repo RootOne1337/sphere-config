@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "3.6.2",
+      "version_code": 102,
+      "release_date": "2025-02-08",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 16507743,
+      "sha256": "1d48628ba01566fb1f506d1e17bbe6ec4e2c851fb5fc497679929ce04ef33840",
+      "changes": [
+        "FIX: OkHttpClient shutdown on destroy — prevents thread pool/connection pool leak",
+        "FIX: Circuit-breaking after 500 reconnect attempts — 60s pause then reset",
+        "FIX: disconnect() cancels ALL child jobs (heartbeat, watchdog, reconnect) — fixes zombie coroutines",
+        "FIX: bufferMessage() @Synchronized — fixes TOCTOU race on offlineBuffer",
+        "FIX: statusBatchBuffer capped at 200 entries — prevents OOM during long disconnects",
+        "FIX: onDestroy() calls connectionManager.shutdown() instead of disconnect()"
+      ],
+      "required": true
+    },
+    {
       "version": "3.6.1",
       "version_code": 101,
       "release_date": "2025-02-07",
@@ -69,8 +86,8 @@
     }
   ],
   "latest": {
-    "version": "3.6.1",
-    "version_code": 101,
+    "version": "3.6.2",
+    "version_code": 102,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
