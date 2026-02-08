@@ -1,6 +1,30 @@
 {
   "versions": [
     {
+      "version": "3.6.1",
+      "version_code": 101,
+      "release_date": "2025-02-07",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 0,
+      "sha256": "",
+      "changes": [
+        "CRITICAL: Устранение ANR на 14+ LDPlayer эмуляторах",
+        "FIX: BootReceiver — AtomicBoolean guard, 0 Thread.sleep, 0 su процессов",
+        "FIX: RootAutoStart/RootInitInstaller — батч su (1 процесс вместо 30+)",
+        "FIX: SphereAgentApp — ROOT ops отложены на 60с, одноразовый флаг",
+        "FIX: AgentService — удалены restart alarm (START_STICKY + WorkManager)",
+        "FIX: CommandExecutor — все process streams закрываются через use{}",
+        "FIX: H264RootStreamService — NAL буфер с лимитом 2MB (защита от OOM)",
+        "FIX: ConnectionManager — AtomicInteger для pendingFrames, атомарный drain offlineBuffer",
+        "FIX: ServerDiscovery — Semaphore(24) вместо 254 параллельных async",
+        "FIX: ScreenCaptureService — удалён дубликат UpdateManager",
+        "FIX: ScriptLogSender — ConcurrentHashMap вместо mutableMapOf",
+        "FIX: BootContentProvider — coroutine delay вместо Thread.sleep",
+        "PERF: init.rc — 1 триггер вместо 4"
+      ],
+      "required": true
+    },
+    {
       "version": "3.5.9",
       "version_code": 99,
       "release_date": "2025-02-04",
@@ -45,8 +69,8 @@
     }
   ],
   "latest": {
-    "version": "3.5.9",
-    "version_code": 99,
+    "version": "3.6.1",
+    "version_code": 101,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }

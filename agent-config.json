@@ -1,10 +1,10 @@
 {
-  "version": "3.5.9",
-  "version_code": 99,
+  "version": "3.6.1",
+  "version_code": 101,
   "force_update": true,
-  "release_notes": "v3.5.9: FIX - JSON serialization for script_log_batch",
+  "release_notes": "v3.6.1: CRITICAL FIX - Устранение ANR/OOM/FD утечек на 14+ эмуляторах",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 16507583,
+  "apk_size": 0,
   "apk_md5": "",
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -27,11 +27,11 @@
   ],
   "min_version": "1.0.0",
   "update_check_interval": 3600,
-  "heartbeat_interval": 15,
+  "heartbeat_interval": 30,
   "connection": {
     "reconnect_delay_ms": 500,
     "max_reconnect_delay_ms": 15000,
-    "heartbeat_interval_ms": 15000,
+    "heartbeat_interval_ms": 30000,
     "connection_timeout_ms": 30000,
     "max_retries": 0,
     "backoff_multiplier": 1.5
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 99
+  "versionCode": 101
 }
