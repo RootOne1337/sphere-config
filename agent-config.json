@@ -1,8 +1,8 @@
 {
-  "version": "3.7.0",
-  "version_code": 103,
+  "version": "3.7.1",
+  "version_code": 104,
   "force_update": true,
-  "release_notes": "v3.7.0: Enterprise Megafix — экспоненциальный circuit breaker, NAL extraction fix, deadlock fixes, ScriptEngine control flow, per-viewer backpressure",
+  "release_notes": "v3.7.1: scrcpy-server streaming — замена тяжёлого screenrecord на лёгкий scrcpy (69KB), без NAL парсинга, keyframe каждые 2с, без перезапусков",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 16507743,
   "apk_md5": "04becab1e2bcd9e1646a5a64e3b28b5b",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 103
+  "versionCode": 104
 }
