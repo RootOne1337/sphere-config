@@ -1,8 +1,8 @@
 {
-  "version": "3.6.1",
-  "version_code": 101,
+  "version": "3.7.0",
+  "version_code": 103,
   "force_update": true,
-  "release_notes": "v3.6.1: CRITICAL FIX - Устранение ANR/OOM/FD утечек на 14+ эмуляторах",
+  "release_notes": "v3.7.0: Enterprise Megafix — экспоненциальный circuit breaker, NAL extraction fix, deadlock fixes, ScriptEngine control flow, per-viewer backpressure",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 16507743,
   "apk_md5": "04becab1e2bcd9e1646a5a64e3b28b5b",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 101
+  "versionCode": 103
 }
