@@ -1,11 +1,11 @@
 {
-  "version": "3.8.0",
-  "version_code": 105,
+  "version": "3.9.0",
+  "version_code": 106,
   "force_update": true,
-  "release_notes": "v3.8.0: Zero-overhead scrcpy streaming — реиспользуемые буферы, on-demand only (нет foreground service без viewer), минимальный logging",
+  "release_notes": "v3.9.0: AWG/AmneziaWG VPN интеграция — VpnManager, VpnHealthMonitor, VpnKillSwitch, 6 VPN команд через WebSocket",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 16593081,
-  "apk_md5": "b10b76ddcc85a120d24b0a18dda2bb93",
+  "apk_size": 16609465,
+  "apk_md5": "8d86dbc7f37d3b60e188167bdd89f9ef",
   "server": {
     "primary_url": "https://adb.leetpc.com",
     "fallback_urls": [
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 105
+  "versionCode": 106
 }
