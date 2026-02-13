@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "3.12.0",
+      "version_code": 116,
+      "release_date": "2026-02-13",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 36294967,
+      "sha256": "1b4fe05b14ab654c7d1e5cbfd8ecb3cba0d954c258dd91e99bedd208b599286b",
+      "changes": [
+        "FIX: connectionManager.vpnActive обновляется после vpn_config, vpn_activate, vpn_deactivate",
+        "FIX: vpnExternalIp и vpnConfigType синхронизируются с VpnManager в heartbeat",
+        "FIX: Backend корректно отображает vpn_active=true для агентов с активным VPN"
+      ],
+      "required": true
+    },
+    {
       "version": "3.6.2",
       "version_code": 102,
       "release_date": "2025-02-08",
@@ -86,8 +100,8 @@
     }
   ],
   "latest": {
-    "version": "3.6.2",
-    "version_code": 102,
+    "version": "3.12.0",
+    "version_code": 116,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }

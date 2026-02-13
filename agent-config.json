@@ -1,11 +1,11 @@
 {
-  "version": "3.9.0",
-  "version_code": 106,
+  "version": "3.12.0",
+  "version_code": 116,
   "force_update": true,
-  "release_notes": "v3.9.0: AWG/AmneziaWG VPN интеграция — VpnManager, VpnHealthMonitor, VpnKillSwitch, 6 VPN команд через WebSocket",
+  "release_notes": "v3.12.0: Фикс VPN heartbeat — vpn_active корректно отправляется после activate/deactivate",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 16609465,
-  "apk_md5": "8d86dbc7f37d3b60e188167bdd89f9ef",
+  "apk_size": 36294967,
+  "apk_md5": "",
   "server": {
     "primary_url": "https://adb.leetpc.com",
     "fallback_urls": [
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 106
+  "versionCode": 116
 }
