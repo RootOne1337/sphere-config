@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.13.0",
+      "version_code": 117,
+      "release_date": "2026-02-13",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29026656,
+      "sha256": "7b71ef8df72f8b7655fb337f3d66732201cef654dfd85b8bef0d9b8092b4c1a6",
+      "changes": [
+        "ENTERPRISE: VPN auto-restore при перезапуске агента (конфиг в SharedPreferences)",
+        "ENTERPRISE: Адаптивные таймауты handshake (20с/40с/60с)",
+        "ENTERPRISE: VpnHealthMonitor v2.0 — 10 попыток auto-recover, exponential backoff",
+        "ENTERPRISE: Полная синхронизация vpnActive во всех путях",
+        "ENTERPRISE: Сброс счётчика auto-recover после 30мин стабильной работы"
+      ],
+      "required": true
+    },
+    {
       "version": "3.12.0",
       "version_code": 116,
       "release_date": "2026-02-13",
@@ -100,8 +116,8 @@
     }
   ],
   "latest": {
-    "version": "3.12.0",
-    "version_code": 116,
+    "version": "3.13.0",
+    "version_code": 117,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }

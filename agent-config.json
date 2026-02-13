@@ -1,10 +1,10 @@
 {
-  "version": "3.12.0",
-  "version_code": 116,
+  "version": "3.13.0",
+  "version_code": 117,
   "force_update": true,
-  "release_notes": "v3.12.0: Фикс VPN heartbeat — vpn_active корректно отправляется после activate/deactivate",
+  "release_notes": "v3.13.0: Enterprise VPN Resiliency — auto-restore, адаптивные таймауты, auto-reconnect",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 36294967,
+  "apk_size": 29026656,
   "apk_md5": "",
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 116
+  "versionCode": 117
 }
