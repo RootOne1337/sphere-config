@@ -1,8 +1,8 @@
 {
-  "version": "3.13.3",
-  "version_code": 120,
+  "version": "3.13.4",
+  "version_code": 121,
   "force_update": true,
-  "release_notes": "v3.13.3: Fix video_codec_options format — исправлен чёрный экран стрима",
+  "release_notes": "v3.13.4: Simplified scrcpy params + better logging",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 29026656,
   "apk_md5": "",

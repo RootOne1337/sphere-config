@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "3.13.4",
+      "version_code": 121,
+      "release_date": "2026-02-15",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29026656,
+      "sha256": "",
+      "changes": [
+        "FIX: Убраны video_codec_options для совместимости с LDPlayer",
+        "FIX: Увеличен таймаут подключения к сокету до 10с",
+        "FIX: Добавлено логирование stderr scrcpy-server"
+      ],
+      "required": true
+    },
+    {
       "version": "3.13.3",
       "version_code": 120,
       "release_date": "2026-02-15",
@@ -155,8 +169,8 @@
     }
   ],
   "latest": {
-    "version": "3.13.3",
-    "version_code": 120,
+    "version": "3.13.4",
+    "version_code": 121,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
