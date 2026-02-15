@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "3.13.3",
+      "version_code": 120,
+      "release_date": "2026-02-15",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29026656,
+      "sha256": "",
+      "changes": [
+        "FIX: Исправлен чёрный экран стрима — формат video_codec_options",
+        "FIX: i-frame-interval:int=2 — корректный формат для scrcpy-server 2.4"
+      ],
+      "required": true
+    },
+    {
       "version": "3.13.2",
       "version_code": 119,
       "release_date": "2026-02-15",
@@ -142,8 +155,8 @@
     }
   ],
   "latest": {
-    "version": "3.13.2",
-    "version_code": 119,
+    "version": "3.13.3",
+    "version_code": 120,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
