@@ -1,8 +1,8 @@
 {
-  "version": "3.13.4",
-  "version_code": 121,
+  "version": "3.13.5",
+  "version_code": 122,
   "force_update": true,
-  "release_notes": "v3.13.4: Simplified scrcpy params + better logging",
+  "release_notes": "v3.13.5: Run scrcpy-server via sh instead of su",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 29026656,
   "apk_md5": "",
