@@ -1,10 +1,10 @@
 {
-  "version": "3.13.5",
-  "version_code": 122,
+  "version": "3.16.0",
+  "version_code": 126,
   "force_update": true,
-  "release_notes": "v3.13.5: Run scrcpy-server via sh instead of su",
-  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 29026656,
+  "release_notes": "v3.16.0: VPN Diagnostics, Smart Rotation v2, Circuit Breaker v2, Enterprise Fault Tolerance",
+  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v3.16.0.apk",
+  "apk_size": 36311351,
   "apk_md5": "",
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 117
+  "versionCode": 126
 }
