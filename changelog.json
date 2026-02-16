@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "3.13.6",
+      "version_code": 123,
+      "release_date": "2026-02-16",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29026656,
+      "sha256": "",
+      "changes": [
+        "FIX: Универсальный запуск scrcpy-server: sh → su fallback",
+        "FIX: Подключение к сокету через ABSTRACT и FILESYSTEM namespace",
+        "FIX: Раннее завершение при смерти процесса scrcpy-server",
+        "FIX: Увеличен таймаут подключения к сокету до 15с",
+        "FIX: Асинхронное логирование stderr scrcpy-server",
+        "FIX: Сброс флага isCurrentlyStreaming при фатальной ошибке",
+        "FIX: Backend binary protocol auto-detect с fallback на raw frame"
+      ],
+      "required": true
+    },
+    {
       "version": "3.13.5",
       "version_code": 122,
       "release_date": "2026-02-15",
@@ -164,7 +182,7 @@
         "Hardcoded production IP in APK (212.220.204.72)",
         "Improved fault tolerance for emulator fleets"
       ],
-      "required": false
+      "required": true
     },
     {
       "version": "3.5.7",
@@ -182,8 +200,8 @@
     }
   ],
   "latest": {
-    "version": "3.13.5",
-    "version_code": 122,
+    "version": "3.13.6",
+    "version_code": 123,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
