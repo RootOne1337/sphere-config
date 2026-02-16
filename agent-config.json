@@ -1,8 +1,8 @@
 {
-  "version": "3.13.5",
-  "version_code": 122,
+  "version": "3.13.6",
+  "version_code": 123,
   "force_update": true,
-  "release_notes": "v3.13.5: Run scrcpy-server via sh instead of su",
+  "release_notes": "v3.13.6: Robust scrcpy-server launch — sh/su fallback, ABSTRACT/FILESYSTEM socket, dead-process exit",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 29026656,
   "apk_md5": "",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 117
+  "versionCode": 123
 }
