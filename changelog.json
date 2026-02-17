@@ -8,11 +8,11 @@
       "size_bytes": 29059428,
       "sha256": "e8980a91f1b4e103bd2f1c088d5cf3284531b251c2f5d7496328412e4e1867a5",
       "changes": [
-        "FIX: Убран диалог установки — полностью тихая OTA установка",
-        "FIX: Stream install через cat | pm install -S SIZE",
-        "FIX: Установка через /data/local/tmp с повышенными привилегиями",
-        "FIX: Флаги --user 0, --bypass-low-target-sdk-block",
-        "FIX: Fallback reinstall: uninstall + install (сброс signature)"
+        "FIX: \u0423\u0431\u0440\u0430\u043d \u0434\u0438\u0430\u043b\u043e\u0433 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u2014 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0442\u0438\u0445\u0430\u044f OTA \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+        "FIX: Stream install \u0447\u0435\u0440\u0435\u0437 cat | pm install -S SIZE",
+        "FIX: \u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0447\u0435\u0440\u0435\u0437 /data/local/tmp \u0441 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u044b\u043c\u0438 \u043f\u0440\u0438\u0432\u0438\u043b\u0435\u0433\u0438\u044f\u043c\u0438",
+        "FIX: \u0424\u043b\u0430\u0433\u0438 --user 0, --bypass-low-target-sdk-block",
+        "FIX: Fallback reinstall: uninstall + install (\u0441\u0431\u0440\u043e\u0441 signature)"
       ],
       "required": true
     },
@@ -24,11 +24,11 @@
       "size_bytes": 29059424,
       "sha256": "2b2d5d18888ede778b7816ba8374e254fa8e53536eeedd0b6ea5c9ece65cb413",
       "changes": [
-        "ENTERPRISE: ScriptScheduler — HOURLY/DAILY/INTERVAL/CRON/POINTS расписания",
-        "ENTERPRISE: PIXEL_CHECK/WAIT/GROUP — проверка цвета пикселей через screencap",
-        "ENTERPRISE: WAIT_SCREEN_STABLE — ожидание стабильности экрана через md5 hash",
-        "ENTERPRISE: SUBSCRIBE_EVENT — подписка на события с jump to handler step",
-        "ENTERPRISE: AdaptiveCpuThrottler — мониторинг CPU через /proc/stat"
+        "ENTERPRISE: ScriptScheduler \u2014 HOURLY/DAILY/INTERVAL/CRON/POINTS \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+        "ENTERPRISE: PIXEL_CHECK/WAIT/GROUP \u2014 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0446\u0432\u0435\u0442\u0430 \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439 \u0447\u0435\u0440\u0435\u0437 screencap",
+        "ENTERPRISE: WAIT_SCREEN_STABLE \u2014 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u0435 \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u044d\u043a\u0440\u0430\u043d\u0430 \u0447\u0435\u0440\u0435\u0437 md5 hash",
+        "ENTERPRISE: SUBSCRIBE_EVENT \u2014 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0430 \u043d\u0430 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u0441 jump to handler step",
+        "ENTERPRISE: AdaptiveCpuThrottler \u2014 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 CPU \u0447\u0435\u0440\u0435\u0437 /proc/stat"
       ],
       "required": true
     },
@@ -40,11 +40,11 @@
       "size_bytes": 36311351,
       "sha256": "",
       "changes": [
-        "ENTERPRISE: VPN Diagnostics — расширенная диагностика (трафик, latency, DNS, kill-switch)",
-        "ENTERPRISE: Smart Rotation v2 — least-used tunnel selection",
-        "ENTERPRISE: Circuit Breaker v2 — 3-state fault tolerance",
-        "ENTERPRISE: Frontend VPN Dashboard v3 — Events, IP Check, Infrastructure табы",
-        "FIX: deprecated MediaType.parse → toMediaTypeOrNull"
+        "ENTERPRISE: VPN Diagnostics \u2014 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 (\u0442\u0440\u0430\u0444\u0438\u043a, latency, DNS, kill-switch)",
+        "ENTERPRISE: Smart Rotation v2 \u2014 least-used tunnel selection",
+        "ENTERPRISE: Circuit Breaker v2 \u2014 3-state fault tolerance",
+        "ENTERPRISE: Frontend VPN Dashboard v3 \u2014 Events, IP Check, Infrastructure \u0442\u0430\u0431\u044b",
+        "FIX: deprecated MediaType.parse \u2192 toMediaTypeOrNull"
       ],
       "required": true
     },
@@ -56,13 +56,13 @@
       "size_bytes": 29026656,
       "sha256": "",
       "changes": [
-        "FIX: Универсальный запуск scrcpy-server: sh → su fallback",
-        "FIX: Подключение к сокету через ABSTRACT и FILESYSTEM namespace",
-        "FIX: Раннее завершение при смерти процесса scrcpy-server",
-        "FIX: Увеличен таймаут подключения к сокету до 15с",
-        "FIX: Асинхронное логирование stderr scrcpy-server",
-        "FIX: Сброс флага isCurrentlyStreaming при фатальной ошибке",
-        "FIX: Backend binary protocol auto-detect с fallback на raw frame"
+        "FIX: \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a scrcpy-server: sh \u2192 su fallback",
+        "FIX: \u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0441\u043e\u043a\u0435\u0442\u0443 \u0447\u0435\u0440\u0435\u0437 ABSTRACT \u0438 FILESYSTEM namespace",
+        "FIX: \u0420\u0430\u043d\u043d\u0435\u0435 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 \u043f\u0440\u0438 \u0441\u043c\u0435\u0440\u0442\u0438 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 scrcpy-server",
+        "FIX: \u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d \u0442\u0430\u0439\u043c\u0430\u0443\u0442 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043a \u0441\u043e\u043a\u0435\u0442\u0443 \u0434\u043e 15\u0441",
+        "FIX: \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0435 \u043b\u043e\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 stderr scrcpy-server",
+        "FIX: \u0421\u0431\u0440\u043e\u0441 \u0444\u043b\u0430\u0433\u0430 isCurrentlyStreaming \u043f\u0440\u0438 \u0444\u0430\u0442\u0430\u043b\u044c\u043d\u043e\u0439 \u043e\u0448\u0438\u0431\u043a\u0435",
+        "FIX: Backend binary protocol auto-detect \u0441 fallback \u043d\u0430 raw frame"
       ],
       "required": true
     },
@@ -74,8 +74,8 @@
       "size_bytes": 29026656,
       "sha256": "",
       "changes": [
-        "FIX: Запуск scrcpy-server через sh -c вместо su -c",
-        "FIX: scrcpy-server не требует root прав"
+        "FIX: \u0417\u0430\u043f\u0443\u0441\u043a scrcpy-server \u0447\u0435\u0440\u0435\u0437 sh -c \u0432\u043c\u0435\u0441\u0442\u043e su -c",
+        "FIX: scrcpy-server \u043d\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u0442 root \u043f\u0440\u0430\u0432"
       ],
       "required": true
     },
@@ -87,9 +87,9 @@
       "size_bytes": 29026656,
       "sha256": "",
       "changes": [
-        "FIX: Убраны video_codec_options для совместимости с LDPlayer",
-        "FIX: Увеличен таймаут подключения к сокету до 10с",
-        "FIX: Добавлено логирование stderr scrcpy-server"
+        "FIX: \u0423\u0431\u0440\u0430\u043d\u044b video_codec_options \u0434\u043b\u044f \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u0438\u043c\u043e\u0441\u0442\u0438 \u0441 LDPlayer",
+        "FIX: \u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d \u0442\u0430\u0439\u043c\u0430\u0443\u0442 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043a \u0441\u043e\u043a\u0435\u0442\u0443 \u0434\u043e 10\u0441",
+        "FIX: \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u043e \u043b\u043e\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 stderr scrcpy-server"
       ],
       "required": true
     },
@@ -101,8 +101,8 @@
       "size_bytes": 29026656,
       "sha256": "",
       "changes": [
-        "FIX: Исправлен чёрный экран стрима — формат video_codec_options",
-        "FIX: i-frame-interval:int=2 — корректный формат для scrcpy-server 2.4"
+        "FIX: \u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u0447\u0451\u0440\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d \u0441\u0442\u0440\u0438\u043c\u0430 \u2014 \u0444\u043e\u0440\u043c\u0430\u0442 video_codec_options",
+        "FIX: i-frame-interval:int=2 \u2014 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u044b\u0439 \u0444\u043e\u0440\u043c\u0430\u0442 \u0434\u043b\u044f scrcpy-server 2.4"
       ],
       "required": true
     },
@@ -114,8 +114,8 @@
       "size_bytes": 29026656,
       "sha256": "",
       "changes": [
-        "FIX: Исправлен чёрный экран стрима — scrcpy socket не создавался",
-        "FIX: tunnel_forward=false — scrcpy-server теперь слушает на сокете"
+        "FIX: \u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u0447\u0451\u0440\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d \u0441\u0442\u0440\u0438\u043c\u0430 \u2014 scrcpy socket \u043d\u0435 \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u043b\u0441\u044f",
+        "FIX: tunnel_forward=false \u2014 scrcpy-server \u0442\u0435\u043f\u0435\u0440\u044c \u0441\u043b\u0443\u0448\u0430\u0435\u0442 \u043d\u0430 \u0441\u043e\u043a\u0435\u0442\u0435"
       ],
       "required": true
     },
@@ -127,8 +127,8 @@
       "size_bytes": 29026656,
       "sha256": "",
       "changes": [
-        "FIX: Исправлен чёрный экран стрима — scrcpy-server падал с NumberFormatException",
-        "FIX: Уменьшен диапазон scid с Int.MAX_VALUE до 1-100000 для совместимости с scrcpy-server 2.4"
+        "FIX: \u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u0447\u0451\u0440\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d \u0441\u0442\u0440\u0438\u043c\u0430 \u2014 scrcpy-server \u043f\u0430\u0434\u0430\u043b \u0441 NumberFormatException",
+        "FIX: \u0423\u043c\u0435\u043d\u044c\u0448\u0435\u043d \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d scid \u0441 Int.MAX_VALUE \u0434\u043e 1-100000 \u0434\u043b\u044f \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u0438\u043c\u043e\u0441\u0442\u0438 \u0441 scrcpy-server 2.4"
       ],
       "required": true
     },
@@ -140,11 +140,11 @@
       "size_bytes": 29026656,
       "sha256": "7b71ef8df72f8b7655fb337f3d66732201cef654dfd85b8bef0d9b8092b4c1a6",
       "changes": [
-        "ENTERPRISE: VPN auto-restore при перезапуске агента (конфиг в SharedPreferences)",
-        "ENTERPRISE: Адаптивные таймауты handshake (20с/40с/60с)",
-        "ENTERPRISE: VpnHealthMonitor v2.0 — 10 попыток auto-recover, exponential backoff",
-        "ENTERPRISE: Полная синхронизация vpnActive во всех путях",
-        "ENTERPRISE: Сброс счётчика auto-recover после 30мин стабильной работы"
+        "ENTERPRISE: VPN auto-restore \u043f\u0440\u0438 \u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0443\u0441\u043a\u0435 \u0430\u0433\u0435\u043d\u0442\u0430 (\u043a\u043e\u043d\u0444\u0438\u0433 \u0432 SharedPreferences)",
+        "ENTERPRISE: \u0410\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u044b\u0435 \u0442\u0430\u0439\u043c\u0430\u0443\u0442\u044b handshake (20\u0441/40\u0441/60\u0441)",
+        "ENTERPRISE: VpnHealthMonitor v2.0 \u2014 10 \u043f\u043e\u043f\u044b\u0442\u043e\u043a auto-recover, exponential backoff",
+        "ENTERPRISE: \u041f\u043e\u043b\u043d\u0430\u044f \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u044f vpnActive \u0432\u043e \u0432\u0441\u0435\u0445 \u043f\u0443\u0442\u044f\u0445",
+        "ENTERPRISE: \u0421\u0431\u0440\u043e\u0441 \u0441\u0447\u0451\u0442\u0447\u0438\u043a\u0430 auto-recover \u043f\u043e\u0441\u043b\u0435 30\u043c\u0438\u043d \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b"
       ],
       "required": true
     },
@@ -156,9 +156,9 @@
       "size_bytes": 36294967,
       "sha256": "1b4fe05b14ab654c7d1e5cbfd8ecb3cba0d954c258dd91e99bedd208b599286b",
       "changes": [
-        "FIX: connectionManager.vpnActive обновляется после vpn_config, vpn_activate, vpn_deactivate",
-        "FIX: vpnExternalIp и vpnConfigType синхронизируются с VpnManager в heartbeat",
-        "FIX: Backend корректно отображает vpn_active=true для агентов с активным VPN"
+        "FIX: connectionManager.vpnActive \u043e\u0431\u043d\u043e\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u043e\u0441\u043b\u0435 vpn_config, vpn_activate, vpn_deactivate",
+        "FIX: vpnExternalIp \u0438 vpnConfigType \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u0441 VpnManager \u0432 heartbeat",
+        "FIX: Backend \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u0442 vpn_active=true \u0434\u043b\u044f \u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u0441 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u043c VPN"
       ],
       "required": true
     },
@@ -170,11 +170,11 @@
       "size_bytes": 16507743,
       "sha256": "1d48628ba01566fb1f506d1e17bbe6ec4e2c851fb5fc497679929ce04ef33840",
       "changes": [
-        "FIX: OkHttpClient shutdown on destroy — prevents thread pool/connection pool leak",
-        "FIX: Circuit-breaking after 500 reconnect attempts — 60s pause then reset",
-        "FIX: disconnect() cancels ALL child jobs (heartbeat, watchdog, reconnect) — fixes zombie coroutines",
-        "FIX: bufferMessage() @Synchronized — fixes TOCTOU race on offlineBuffer",
-        "FIX: statusBatchBuffer capped at 200 entries — prevents OOM during long disconnects",
+        "FIX: OkHttpClient shutdown on destroy \u2014 prevents thread pool/connection pool leak",
+        "FIX: Circuit-breaking after 500 reconnect attempts \u2014 60s pause then reset",
+        "FIX: disconnect() cancels ALL child jobs (heartbeat, watchdog, reconnect) \u2014 fixes zombie coroutines",
+        "FIX: bufferMessage() @Synchronized \u2014 fixes TOCTOU race on offlineBuffer",
+        "FIX: statusBatchBuffer capped at 200 entries \u2014 prevents OOM during long disconnects",
         "FIX: onDestroy() calls connectionManager.shutdown() instead of disconnect()"
       ],
       "required": true
@@ -187,19 +187,19 @@
       "size_bytes": 0,
       "sha256": "",
       "changes": [
-        "CRITICAL: Устранение ANR на 14+ LDPlayer эмуляторах",
-        "FIX: BootReceiver — AtomicBoolean guard, 0 Thread.sleep, 0 su процессов",
-        "FIX: RootAutoStart/RootInitInstaller — батч su (1 процесс вместо 30+)",
-        "FIX: SphereAgentApp — ROOT ops отложены на 60с, одноразовый флаг",
-        "FIX: AgentService — удалены restart alarm (START_STICKY + WorkManager)",
-        "FIX: CommandExecutor — все process streams закрываются через use{}",
-        "FIX: H264RootStreamService — NAL буфер с лимитом 2MB (защита от OOM)",
-        "FIX: ConnectionManager — AtomicInteger для pendingFrames, атомарный drain offlineBuffer",
-        "FIX: ServerDiscovery — Semaphore(24) вместо 254 параллельных async",
-        "FIX: ScreenCaptureService — удалён дубликат UpdateManager",
-        "FIX: ScriptLogSender — ConcurrentHashMap вместо mutableMapOf",
-        "FIX: BootContentProvider — coroutine delay вместо Thread.sleep",
-        "PERF: init.rc — 1 триггер вместо 4"
+        "CRITICAL: \u0423\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435 ANR \u043d\u0430 14+ LDPlayer \u044d\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430\u0445",
+        "FIX: BootReceiver \u2014 AtomicBoolean guard, 0 Thread.sleep, 0 su \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432",
+        "FIX: RootAutoStart/RootInitInstaller \u2014 \u0431\u0430\u0442\u0447 su (1 \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0432\u043c\u0435\u0441\u0442\u043e 30+)",
+        "FIX: SphereAgentApp \u2014 ROOT ops \u043e\u0442\u043b\u043e\u0436\u0435\u043d\u044b \u043d\u0430 60\u0441, \u043e\u0434\u043d\u043e\u0440\u0430\u0437\u043e\u0432\u044b\u0439 \u0444\u043b\u0430\u0433",
+        "FIX: AgentService \u2014 \u0443\u0434\u0430\u043b\u0435\u043d\u044b restart alarm (START_STICKY + WorkManager)",
+        "FIX: CommandExecutor \u2014 \u0432\u0441\u0435 process streams \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0447\u0435\u0440\u0435\u0437 use{}",
+        "FIX: H264RootStreamService \u2014 NAL \u0431\u0443\u0444\u0435\u0440 \u0441 \u043b\u0438\u043c\u0438\u0442\u043e\u043c 2MB (\u0437\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 OOM)",
+        "FIX: ConnectionManager \u2014 AtomicInteger \u0434\u043b\u044f pendingFrames, \u0430\u0442\u043e\u043c\u0430\u0440\u043d\u044b\u0439 drain offlineBuffer",
+        "FIX: ServerDiscovery \u2014 Semaphore(24) \u0432\u043c\u0435\u0441\u0442\u043e 254 \u043f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c\u043d\u044b\u0445 async",
+        "FIX: ScreenCaptureService \u2014 \u0443\u0434\u0430\u043b\u0451\u043d \u0434\u0443\u0431\u043b\u0438\u043a\u0430\u0442 UpdateManager",
+        "FIX: ScriptLogSender \u2014 ConcurrentHashMap \u0432\u043c\u0435\u0441\u0442\u043e mutableMapOf",
+        "FIX: BootContentProvider \u2014 coroutine delay \u0432\u043c\u0435\u0441\u0442\u043e Thread.sleep",
+        "PERF: init.rc \u2014 1 \u0442\u0440\u0438\u0433\u0433\u0435\u0440 \u0432\u043c\u0435\u0441\u0442\u043e 4"
       ],
       "required": true
     },

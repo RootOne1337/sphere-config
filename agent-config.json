@@ -2,7 +2,7 @@
   "version": "4.0.1",
   "version_code": 128,
   "force_update": true,
-  "release_notes": "v4.0.1: Fix silent OTA install — убран диалог установки, stream install + reinstall через ROOT",
+  "release_notes": "v4.0.1: Fix silent OTA install \u2014 \u0443\u0431\u0440\u0430\u043d \u0434\u0438\u0430\u043b\u043e\u0433 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438, stream install + reinstall \u0447\u0435\u0440\u0435\u0437 ROOT",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
   "apk_size": 29059428,
   "apk_md5": "",
