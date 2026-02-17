@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "4.0.1",
+      "version_code": 128,
+      "release_date": "2026-02-17",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29059428,
+      "sha256": "e8980a91f1b4e103bd2f1c088d5cf3284531b251c2f5d7496328412e4e1867a5",
+      "changes": [
+        "FIX: Убран диалог установки — полностью тихая OTA установка",
+        "FIX: Stream install через cat | pm install -S SIZE",
+        "FIX: Установка через /data/local/tmp с повышенными привилегиями",
+        "FIX: Флаги --user 0, --bypass-low-target-sdk-block",
+        "FIX: Fallback reinstall: uninstall + install (сброс signature)"
+      ],
+      "required": true
+    },
+    {
       "version": "4.0.0",
       "version_code": 127,
       "release_date": "2026-02-17",
@@ -232,8 +248,8 @@
     }
   ],
   "latest": {
-    "version": "3.16.0",
-    "version_code": 126,
-    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v3.16.0.apk"
+    "version": "4.0.1",
+    "version_code": 128,
+    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }

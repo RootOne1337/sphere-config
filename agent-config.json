@@ -1,10 +1,10 @@
 {
-  "version": "4.0.0",
-  "version_code": 127,
+  "version": "4.0.1",
+  "version_code": 128,
   "force_update": true,
-  "release_notes": "v4.0.0: Enterprise Script Orchestration — ScriptScheduler, PIXEL_CHECK/WAIT/GROUP, WAIT_SCREEN_STABLE, SUBSCRIBE_EVENT, AdaptiveCpuThrottler",
+  "release_notes": "v4.0.1: Fix silent OTA install — убран диалог установки, stream install + reinstall через ROOT",
   "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
-  "apk_size": 29059424,
+  "apk_size": 29059428,
   "apk_md5": "",
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 127
+  "versionCode": 128
 }
