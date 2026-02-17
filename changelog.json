@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "version": "4.1.1",
+      "version_code": 130,
+      "release_date": "2026-02-17",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29059424,
+      "sha256": "1fff33f8bbcb4bf59beae7595d6c2054741bf42c4d724691a581676b25b09a9e",
+      "changes": [
+        "CI/CD \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u0431\u043e\u0440\u043a\u0430 v4.1.1"
+      ],
+      "required": true
+    },
+    {
       "version": "4.1.0",
       "version_code": 129,
       "release_date": "2026-02-17",
@@ -260,8 +272,8 @@
     }
   ],
   "latest": {
-    "version": "4.1.0",
-    "version_code": 129,
+    "version": "4.1.1",
+    "version_code": 130,
     "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
   }
 }
