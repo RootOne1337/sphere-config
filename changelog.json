@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.16.0",
+      "version_code": 126,
+      "release_date": "2026-02-17",
+      "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v3.16.0.apk",
+      "size_bytes": 36311351,
+      "sha256": "",
+      "changes": [
+        "ENTERPRISE: VPN Diagnostics — расширенная диагностика (трафик, latency, DNS, kill-switch)",
+        "ENTERPRISE: Smart Rotation v2 — least-used tunnel selection",
+        "ENTERPRISE: Circuit Breaker v2 — 3-state fault tolerance",
+        "ENTERPRISE: Frontend VPN Dashboard v3 — Events, IP Check, Infrastructure табы",
+        "FIX: deprecated MediaType.parse → toMediaTypeOrNull"
+      ],
+      "required": true
+    },
+    {
       "version": "3.13.6",
       "version_code": 123,
       "release_date": "2026-02-16",
@@ -200,8 +216,8 @@
     }
   ],
   "latest": {
-    "version": "3.13.6",
-    "version_code": 123,
-    "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk"
+    "version": "3.16.0",
+    "version_code": 126,
+    "download_url": "https://adb.leetpc.com/downloads/SphereAgent-v3.16.0.apk"
   }
 }
