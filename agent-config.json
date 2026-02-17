@@ -1,10 +1,10 @@
 {
-  "version": "3.16.0",
-  "version_code": 126,
+  "version": "4.0.0",
+  "version_code": 127,
   "force_update": true,
-  "release_notes": "v3.16.0: VPN Diagnostics, Smart Rotation v2, Circuit Breaker v2, Enterprise Fault Tolerance",
-  "apk_url": "https://adb.leetpc.com/downloads/SphereAgent-v3.16.0.apk",
-  "apk_size": 36311351,
+  "release_notes": "v4.0.0: Enterprise Script Orchestration — ScriptScheduler, PIXEL_CHECK/WAIT/GROUP, WAIT_SCREEN_STABLE, SUBSCRIBE_EVENT, AdaptiveCpuThrottler",
+  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+  "apk_size": 29059424,
   "apk_md5": "",
   "server": {
     "primary_url": "https://adb.leetpc.com",
@@ -88,5 +88,5 @@
       "212.220.204.72"
     ]
   },
-  "versionCode": 126
+  "versionCode": 127
 }

@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "4.0.0",
+      "version_code": 127,
+      "release_date": "2026-02-17",
+      "download_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+      "size_bytes": 29059424,
+      "sha256": "2b2d5d18888ede778b7816ba8374e254fa8e53536eeedd0b6ea5c9ece65cb413",
+      "changes": [
+        "ENTERPRISE: ScriptScheduler — HOURLY/DAILY/INTERVAL/CRON/POINTS расписания",
+        "ENTERPRISE: PIXEL_CHECK/WAIT/GROUP — проверка цвета пикселей через screencap",
+        "ENTERPRISE: WAIT_SCREEN_STABLE — ожидание стабильности экрана через md5 hash",
+        "ENTERPRISE: SUBSCRIBE_EVENT — подписка на события с jump to handler step",
+        "ENTERPRISE: AdaptiveCpuThrottler — мониторинг CPU через /proc/stat"
+      ],
+      "required": true
+    },
+    {
       "version": "3.16.0",
       "version_code": 126,
       "release_date": "2026-02-17",
