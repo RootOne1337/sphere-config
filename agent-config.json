@@ -3,26 +3,20 @@
   "version_code": 131,
   "force_update": true,
   "release_notes": "v4.0.1: Fix silent OTA install \u2014 \u0443\u0431\u0440\u0430\u043d \u0434\u0438\u0430\u043b\u043e\u0433 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438, stream install + reinstall \u0447\u0435\u0440\u0435\u0437 ROOT",
-  "apk_url": "https://adb.leetpc.com/api/v1/agent/updates/latest.apk",
+  "apk_url": "https://sphereadb.ru.tuna.am/api/v1/agent/updates/latest.apk",
   "apk_size": 29059428,
   "apk_md5": "",
   "server": {
-    "primary_url": "https://adb.leetpc.com",
+    "primary_url": "https://sphereadb.ru.tuna.am",
     "fallback_urls": [
-      "http://212.220.204.72:8001",
-      "http://212.220.204.72:8000",
-      "https://212.220.204.72",
       "https://sphereadb-api-v2.ru.tuna.am"
     ],
     "websocket_path": "/api/v1/agent/ws",
     "api_version": "v1"
   },
-  "server_url": "https://adb.leetpc.com",
-  "ws_url": "wss://adb.leetpc.com/api/v1/agent/ws",
+  "server_url": "https://sphereadb.ru.tuna.am",
+  "ws_url": "wss://sphereadb.ru.tuna.am/api/v1/agent/ws",
   "fallback_urls": [
-    "http://212.220.204.72:8001",
-    "http://212.220.204.72:8000",
-    "https://212.220.204.72",
     "https://sphereadb-api-v2.ru.tuna.am"
   ],
   "min_version": "1.0.0",
@@ -84,9 +78,7 @@
       "https://cdn.statically.io/gh/RootOne1337/sphere-config/main/agent-config.json",
       "https://rawcdn.githack.com/RootOne1337/sphere-config/main/agent-config.json"
     ],
-    "ip_fallbacks": [
-      "212.220.204.72"
-    ]
+    "ip_fallbacks": []
   },
   "versionCode": 131
 }
